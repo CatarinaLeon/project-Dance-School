@@ -1,0 +1,22 @@
+.title {
+  font-family: 'PhillippScript';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+    line-height: 71px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 100px;
+    line-height: 118px;
+  }
+}

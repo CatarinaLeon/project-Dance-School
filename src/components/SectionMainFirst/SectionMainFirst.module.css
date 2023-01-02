@@ -1,0 +1,46 @@
+.sectionHero {
+  padding: 20px 0 0 0;
+  height: 330px;
+  background-image: url('../../images/Hero/young-female-dancer-mob-1x.jpg');
+}
+
+.heroText {
+  width: 117px;
+  margin: 0 auto 12px auto;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+}
+.heroBtn {
+  margin: 0 auto;
+  color: white;
+  background: linear-gradient(75.62deg, #009ee2 7.02%, #273992 91.67%);
+}
+
+@media screen and (min-width: 768px) {
+  .sectionHero {
+    height: 410px;
+    padding: 75px 0 0 0;
+    background-image: url('../../images/Hero/young-female-dancer-tablet-1x.jpg');
+  }
+  .heroText {
+    width: 148px;
+    margin: 0 auto 15px auto;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sectionHero {
+    height: 750px;
+    padding: 138px 0 0 0;
+    background-image: url('../../images/Hero/young-female-dancer-desktop-1x.jpg');
+  }
+  .heroText {
+    width: 271px;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

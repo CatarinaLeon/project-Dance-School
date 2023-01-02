@@ -1,0 +1,139 @@
+.header {
+  padding: 15px 0 5px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+.containerHeader::before {
+  content: '';
+  width: 173px;
+  height: 16px;
+  position: absolute;
+  z-index: 1;
+  bottom: -64%;
+  left: -8%;
+  background-image: url('../../images/SVG/swosh-header-logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.containerHeader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLogo {
+  width: 132px;
+  height: 32px;
+}
+.headerMenuBtn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.headerList {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .containerHeader::before {
+    width: 236px;
+    height: 22px;
+    bottom: -60%;
+    left: -5%;
+  }
+  .headerLogo {
+    width: 180px;
+    height: 44px;
+  }
+
+  .btnSchedule {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #073773;
+  }
+  .btnScheduleIcon {
+    margin-right: 5px;
+    fill: #073773;
+  }
+  .socialList li {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #939598;
+    border-radius: 50%;
+  }
+  .socialList li:not(:last-child) {
+    margin-right: 6px;
+  }
+  .socialList li a {
+    display: flex;
+  }
+  .socialList li svg {
+    fill: #939598;
+  }
+  .btnLang {
+    font-size: 12px;
+    line-height: 14px;
+    color: #939598;
+  }
+  .btnLang:not(:last-child) {
+    margin-right: 10px;
+  }
+  .btnLang:hover,
+  .btnLang:focus {
+    font-weight: 700;
+    color: #073773;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .containerHeader::before {
+    width: 432px;
+    height: 40px;
+    bottom: -54%;
+    left: -7%;
+  }
+  .headerLogo {
+    width: 329px;
+    height: 80px;
+  }
+  .headerMenuBtn {
+    display: none;
+  }
+  .headerList {
+    display: flex;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+  .headerList li:not(:last-child) {
+    margin-right: 15px;
+  }
+  .headerList li {
+    position: relative;
+  }
+
+  .headerList li a:hover::before,
+  .headerList li a:focus::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 15px;
+    background-color: #3483c7;
+  }
+  .headerList li a:hover,
+  .headerList li a:focus {
+    color: #3483c7;
+  }
+}

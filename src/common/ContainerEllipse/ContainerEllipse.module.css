@@ -1,0 +1,61 @@
+.boxEllipse {
+  position: relative;
+  width: 168px;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.boxEllipse::before {
+  content: '';
+  position: absolute;
+  left: 5%;
+  top: -4%;
+  width: 146px;
+  height: 178px;
+  border-radius: 50%;
+  border: 2px solid #3483c7;
+  transform: rotate(20.83deg);
+}
+.boxEllipseTitle {
+  margin-bottom: 5px;
+  font-family: 'PhillippScript';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #073773;
+}
+@media screen and (min-width: 768px) {
+  .boxEllipse {
+    width: 213px;
+    height: 213px;
+  }
+  .boxEllipse::before {
+    width: 185px;
+    height: 225px;
+  }
+  .boxEllipseTitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .boxEllipse {
+    width: 390px;
+    height: 390px;
+  }
+  .boxEllipse::before {
+    width: 339px;
+    height: 413px;
+  }
+  .boxEllipseTitle {
+    font-size: 52px;
+    line-height: 61px;
+  }
+}

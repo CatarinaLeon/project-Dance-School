@@ -1,0 +1,66 @@
+.sectionMap {
+  padding: 0;
+  height: 290px;
+  position: relative;
+  z-index: -2;
+  background-color: green;
+}
+.containerMap {
+  width: 265px;
+  height: 265px;
+  align-content: flex-end;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.containerMap::before {
+  display: none;
+}
+.containerMap h2 {
+  display: none;
+}
+.mapAddress {
+  margin-bottom: 40px;
+}
+.mapText {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+.mapTextTell {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.mapTextMail {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration-line: underline;
+
+  color: #3483c7;
+}
+.mapTextAddress {
+  width: 147px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .sectionMap {
+    height: 430px;
+  }
+  .containerMap {
+    width: 315px;
+    height: 315px;
+  }
+  .mapAddress {
+    margin-bottom: 50px;
+  }
+  .mapText {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,13 @@
+.sectionTeachers {
+  padding-bottom: 170px;
+}
+@media screen and (min-width: 768px) {
+  .sectionTeachers {
+    padding-bottom: 160px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sectionTeachers {
+    padding-bottom: 230px;
+  }
+}

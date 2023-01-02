@@ -1,0 +1,66 @@
+.buttonArrow {
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  position: relative;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  background-color: white;
+  color: #073773;
+}
+
+.buttonArrow::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #073773;
+}
+.buttonArrowLink {
+  color: #073773;
+}
+@media screen and (min-width: 768px) {
+  .buttonArrow {
+    gap: 12px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 26px;
+  }
+
+  .buttonArrow::before {
+    width: 60px;
+    height: 60px;
+    top: -21px;
+    left: -26px;
+  }
+  .buttonArrowIcon {
+    width: 21px;
+    height: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .buttonArrow {
+    gap: 23px;
+    /* width: 170px; */
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 35px;
+  }
+
+  .buttonArrow::before {
+    width: 90px;
+    height: 90px;
+    top: -27px;
+    left: -35px;
+  }
+
+  .buttonArrowIcon {
+    width: 27px;
+    height: 34px;
+  }
+}

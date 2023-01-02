@@ -1,0 +1,117 @@
+.aboutHero {
+  background-image: linear-gradient(
+      75.62deg,
+      rgb(0, 158, 226, 0.7) 7.02%,
+      rgb(39, 57, 146, 0.7) 91.67%
+    ),
+    url('../../images/About-Us/AU-IMG-background-mob-1x.jpg');
+}
+.sectionAboutUs {
+  padding-top: 60px;
+}
+.aboutUsText {
+  max-width: 286px;
+  margin: 0 auto 70px auto;
+}
+
+.aboutUsListItem {
+  max-width: 290px;
+  margin: 0 auto 0px auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.aboutUsListItem:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+.aboutUsListItem picture {
+  position: relative;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 1px solid #073773;
+}
+.aboutUsListItem img {
+  position: absolute;
+  top: -35%;
+  left: 10%;
+  width: 90px;
+  height: 130px;
+}
+.aboutUsWrapper {
+  max-width: 290px;
+}
+.aboutUsListTitle {
+  position: absolute;
+  top: -7%;
+  left: 34%;
+}
+.aboutUsListText {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutHero {
+    background-image: linear-gradient(
+        75.62deg,
+        rgb(0, 158, 226, 0.7) 7.02%,
+        rgb(39, 57, 146, 0.7) 91.67%
+      ),
+      url('../../images/About-Us/AU-IMG-background-tablet-1x.jpg');
+  }
+  .aboutUsText {
+    max-width: 100%;
+    width: 395px;
+    margin: 0 0 100px auto;
+  }
+  .aboutUsListItem {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 100%;
+  }
+  .aboutUsListItem picture {
+    width: 285px;
+    height: 285px;
+  }
+  .aboutUsListItem img {
+    width: 200px;
+    height: 286px;
+  }
+  .aboutUsWrapper {
+    max-width: 100%;
+    width: 365px;
+  }
+  .aboutUsListTitle {
+    position: static;
+    text-align: left;
+  }
+  .aboutUsListText {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .aboutHero {
+    background-image: linear-gradient(
+        75.62deg,
+        rgb(0, 158, 226, 0.7) 7.02%,
+        rgb(39, 57, 146, 0.7) 91.67%
+      ),
+      url('../../images/About-Us/AU-IMG-background-desktop-1x.jpg');
+  }
+  .aboutUsText {
+    width: 500px;
+    margin-right: auto;
+  }
+  .aboutUsListItem:nth-child(2n + 1) {
+    justify-content: flex-start;
+  }
+  .aboutUsListItem:nth-child(2n) {
+    justify-content: flex-end;
+  }
+  .aboutUsWrapper {
+    width: 400px;
+  }
+}
