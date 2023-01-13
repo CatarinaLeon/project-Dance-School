@@ -108,7 +108,7 @@
     grid-column: 9 / 12;
     grid-row: 7 / 11;
   }
-  /* .BackgroundImg{
+  .BackgroundImg{
     position: absolute;
     z-index: -2;
     top: 53%;
@@ -121,7 +121,7 @@
     background-repeat: no-repeat;
     background-size:contain, cover;
     background-position:230%, top;
-  } */
+  }
 }
 
 @media screen and (min-width: 1200px) {
