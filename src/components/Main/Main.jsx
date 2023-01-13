@@ -1,7 +1,7 @@
 import { Suspense, lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from '../../pages/Home/Home';
-
+import s from './Main.module.css';
 // const Home = lazy(() => import('../../pages/Home/Home'));
 const AboutUs = lazy(() => import('../../pages/AboutUs/AboutUs'));
 const Classes = lazy(() => import('../../pages/Classes/Classes'));
@@ -14,7 +14,7 @@ const SpecialEvents = lazy(() =>
 
 export default function Main() {
   return (
-    <main>
+    <main className={s.main}>
       <Suspense fallback={<h2>Loading...</h2>}>
         <Routes>
           <Route path="/" element={<Home />}></Route>

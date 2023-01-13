@@ -126,7 +126,10 @@
   line-height: 0;
 
   position: absolute;
-  top: 35%;
+
+  top: 50%;
+  /* left: 50%; */
+  transform: translate(-50%, -50%);
   z-index: 1;
   display: block;
   width: 40px;
@@ -134,9 +137,8 @@
   border-radius: 50%;
   border: 1px solid #273992;
   padding: 0;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
+  /* -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%); */
 
   color: transparent;
   outline: none;
@@ -151,7 +153,8 @@
 }
 
 .slick-prev {
-  left: 10%;
+
+  left: 5%;
   background-image: url('../../images/SVG/icon-arrow-left.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -160,17 +163,36 @@
   background-image: url('../../images/SVG/icon-arrow-right.svg');
   background-repeat: no-repeat;
   background-position: center;
-  right: 10%;
+  right: 0%;
 }
-
+@media screen and (min-width: 768px) {
+  .slick-prev{
+    left: 10%;
+    top: 39%;
+  }
+  .slick-next{
+    right: 4%;
+    top: 39%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slick-prev{
+    left: 18%;
+    top: 42%;
+  }
+  .slick-next{
+    right: 15%;
+    top: 42%;
+  }
+}
 /* Dots */
 .slick-dotted.slick-slider {
   margin-bottom: 30px;
 }
 
 .slick-dots {
-  position: absolute;
-  bottom: -25px;
+  /* position: absolute;
+  bottom: -25px; */
 
   display: block;
 

@@ -2,8 +2,10 @@
   padding: 0;
   height: 290px;
   position: relative;
+  top: 140px;
   z-index: -2;
   background-color: green;
+  background-image: none;
 }
 .containerMap {
   width: 265px;

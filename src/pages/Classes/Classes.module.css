@@ -1,0 +1,95 @@
+.classesHero{
+    background-image: linear-gradient(75.62deg,
+            rgb(0, 158, 226, 0.7) 7.02%,
+            rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-mob-1x.jpg');
+}
+.classesListItems{
+    width: 288px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 0px #e1e1e1;
+}
+.classesListItems:not(:last-child){
+    margin-bottom: 25px;
+}
+.classesListItems img{
+    width: 170px;
+    margin: 0 auto;
+}
+.classesListItems div{
+    padding: 40px 10px 25px;
+}
+.classesListTitle{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+.classesListText{
+    margin-bottom: 25px;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+.classesListBtn{
+    margin: 0 0 0 auto;
+    height: auto;
+}
+.classesListBtn::before{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .classesHero{
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-tablet-1x.jpg');
+    }
+    .classesListItems{
+        width: 600px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 55px;
+}
+    .classesListItems:nth-child(2n + 1){
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .classesListItems:nth-child(2n){
+        margin-right: auto;
+        margin-left: 0;
+}
+.classesListItems:not(:last-child) {
+    margin-bottom: 60px;
+}
+.classesListItems div {
+    width: 265px;
+    padding: 25px 25px;
+}
+.classesListText{
+    margin-bottom: 40px;
+}
+}
+@media screen and (min-width: 1200px) {
+    .classesHero {
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-desktop-1x.jpg');
+    }
+    .classesList{
+        width: 950px;
+        margin: 0 auto;
+    }
+    .classesListItems{
+        width: 630px;
+    }
+    .classesListItems img{
+        width: 200px;
+}
+.classesListText{
+    margin-bottom: 80px;
+}
+}

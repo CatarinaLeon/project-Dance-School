@@ -19,7 +19,7 @@ export default function ListNav({ children, className, item }) {
           />
           <img src={item.img_mob_1x} alt={item.alt} />
         </picture>
-        {children}
+        <div>{children}</div>
       </li>
     </>
   );

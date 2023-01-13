@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { socialNavigation } from '../../data/socialNav.js';
 import { navConfig } from '../../data/navigation.js';
 import useResizeWindow from '../../hooks/useResizeWindow.js';
@@ -17,7 +18,9 @@ export default function Footer() {
     return (
       <footer className={s.footer}>
         <Container className={s.footerContainer}>
-          <Logo className={s.footerLogo} />
+          <NavLink to="/">
+            <Logo className={s.footerLogo} />
+          </NavLink>
           <button className={s.btnSchedule}>
             <IconSchedule className={s.btnScheduleIcon} />
             Schedule
@@ -33,7 +36,9 @@ export default function Footer() {
     return (
       <footer className={s.footer}>
         <Container className={s.footerContainer}>
-          <Logo className={s.footerLogo} />
+          <NavLink to="/">
+            <Logo className={s.footerLogo} />
+          </NavLink>
           <div className={s.footerListBlock}>
             <ListNav items={navConfig} className={s.footerList} />
             <button className={s.btnSchedule}>

@@ -1,18 +1,24 @@
 .section {
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
   .section {
-    padding-top: 50px;
-    padding-bottom: 90px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-image: 
+    url('../../images/Background/main-background-img-768-1x.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:0% 45%; 
   }
+  
 }
 
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 90px;
-    padding-bottom: 115px;
+    padding-top: 60px;
+    padding-bottom: 65px;
   }
 }

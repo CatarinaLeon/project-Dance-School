@@ -9,7 +9,7 @@
   height: 16px;
   position: absolute;
   z-index: 1;
-  bottom: -64%;
+  bottom: -57%;
   left: -8%;
   background-image: url('../../images/SVG/swosh-header-logo.svg');
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@
   .containerHeader::before {
     width: 236px;
     height: 22px;
-    bottom: -60%;
+    bottom: -53%;
     left: -5%;
   }
   .headerLogo {
@@ -98,7 +98,7 @@
   .containerHeader::before {
     width: 432px;
     height: 40px;
-    bottom: -54%;
+    bottom: -52%;
     left: -7%;
   }
   .headerLogo {

@@ -1,18 +1,18 @@
 .containerCard {
   max-width: 288px;
   margin: 0 auto 30px;
+  position: relative;
 }
-.cardImgPicture {
-  display: block;
-  margin: 0 auto 10px;
+.cardImg {
+  margin: 0 auto 15px; 
   width: 130px;
   height: 174px;
   border-radius: 20px;
-}
+} 
 .cardBox {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 15px 10px 20px;
+  padding: 20px 10px;
   border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 7px 20px rgba(7, 55, 115, 0.1);
 }
 .cardTitle {
@@ -46,16 +46,14 @@
     max-width: 100%;
     width: 500px;
   }
-  .cardImgPicture {
-    width: 160px;
-    height: 207px;
-  }
-  .cardImgPicture img {
+
+  .cardImg {
+    margin-bottom: 0;
     width: 160px;
     height: 207px;
   }
   .cardBox {
-    padding: 25px 15px 20px 30px;
+    padding: 30px 20px;
   }
   .cardTitle {
     text-align: left;
@@ -71,18 +69,14 @@
     max-width: 635px;
     width: 635px;
   }
-  .cardImgPicture {
-    width: 210px;
-    height: 275px;
-  }
 
-  .cardImgPicture img {
+  .cardImg{
     width: 210px;
     height: 275px;
   }
 
   .cardBox {
-    padding: 30px 20px 30px 40px;
+    padding: 25px 20px 30px 40px;
   }
 
   .cardTitle {

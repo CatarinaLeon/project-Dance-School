@@ -1,26 +1,17 @@
-.sectionAwards {
-  padding-top: 0;
-  padding-bottom: 260px;
-}
 .awardsSliderCard {
   padding-top: 50px;
 }
-.awardsSliderCard picture {
+.awardsSliderCard img {
   position: absolute;
-  top: 20%;
-  left: 7%;
+  top: 22%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 160px;
   height: 105px;
   margin-bottom: 0;
 }
-.awardsSliderCard img {
-  width: 160px;
-  height: 105px;
-}
 .awardsSliderCard div {
   padding: 72px 22px 30px 22px;
-  position: relative;
 }
 .awardsSliderCard h3 {
   width: 100%;
@@ -33,35 +24,18 @@
   display: block;
 }
 @media screen and (min-width: 768px) {
-  /* .awardsSliderCard{
-        width: 410px;
-    } */
   .awardsSliderCard div {
-    width: 410px;
     margin: 0 auto;
   }
-  /* .awardsSliderCard picture{
-        top: 20%;
-        left: 7%;
-        transform: translate(-50%, -50%);
-    }
-     */
 }
+
 @media screen and (min-width: 1200px) {
   .awardsSliderCard {
     padding-top: 80px;
-    /* width: 605px; */
   }
   .awardsSliderCard div {
     padding: 105px 55px 80px 55px;
-    width: 605px;
   }
-  .awardsSliderCard picture {
-    transform: translate(-30%, -50%);
-    width: 235px;
-    height: 155px;
-  }
-
   .awardsSliderCard img {
     width: 235px;
     height: 155px;

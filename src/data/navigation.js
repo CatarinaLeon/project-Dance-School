@@ -4,23 +4,23 @@ export const navConfig = [
     url: '/about',
   },
   {
+    name: 'News',
+    url: '/news',
+  },
+  {
     name: 'Classes',
     url: '/classes',
   },
   {
-    name: 'Contacts',
-    url: '/contacts',
-  },
-  {
-    name: 'News',
-    url: '/news',
+    name: 'Special Events',
+    url: '/events',
   },
   {
     name: 'Prices',
     url: '/prices',
   },
   {
-    name: 'SpecialEvents',
-    url: '/events',
+    name: 'Contacts',
+    url: '/contacts',
   },
 ];

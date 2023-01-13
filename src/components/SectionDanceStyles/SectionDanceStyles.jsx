@@ -9,6 +9,7 @@ import ContainerEllipse from '../../common/ContainerEllipse/ContainerEllipse';
 import Button from '../../common/Button/Button';
 
 import s from './SectionDanceStyles.module.css';
+import BackgroundImg from '../../common/BackgroundImg/BackgroundImg';
 
 export default function SectionDanceStyles() {
   return (
@@ -26,6 +27,7 @@ export default function SectionDanceStyles() {
           <Button message="Start Now" className={s.danceStBtn} />
         </ContainerEllipse>
       </Container>
+      <BackgroundImg className={s.imgEllipse} />
     </Section>
   );
 }

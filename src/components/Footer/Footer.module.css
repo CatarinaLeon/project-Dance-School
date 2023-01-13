@@ -1,7 +1,7 @@
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* left: 0; */
   padding: 25px 0 5px 0;
   background: linear-gradient(90deg, #3483c7 0%, #073773 100%);
   background-image: url('../../images/SVG/background-footer.svg');

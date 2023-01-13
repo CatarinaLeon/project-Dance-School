@@ -16,7 +16,12 @@ export default function SliderCard({ className, children, item }) {
           media="(max-width: 480px), (max-width: 480px)"
           srcSet={`${item.img_mob_1x} 1x, ${item.img_mob_2x} 2x`}
         />
-        <img src={item.img_mob_1x} alt={item.imgAlt} width="130" height="174" />
+        <img
+          src={item.img_mob_1x}
+          alt={item.imgAlt}
+          className={s.cardImg}
+          // width="130" height="174"
+        />
       </picture>
       <div className={s.cardBox}>
         <h3 className={s.cardTitle}>{item.title}</h3>

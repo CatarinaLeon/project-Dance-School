@@ -9,6 +9,7 @@ import ItemsList from '../../common/ItemsList/ItemsList';
 import ButtonArrow from '../../common/ButtonArrow/ButtonArrow';
 
 import s from './SectionAboutUs.module.css';
+// import BackgroundImg from '../../common/BackgroundImg/BackgroundImg';
 
 export default function SectionAboutUs() {
   return (
@@ -37,6 +38,7 @@ export default function SectionAboutUs() {
           />
         </div>
       </Container>
+      {/* <BackgroundImg className={s.BackgroundImg} /> */}
     </Section>
   );
 }

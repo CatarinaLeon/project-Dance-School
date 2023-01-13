@@ -1,5 +1,16 @@
-import React from 'react';
+import SectionHero from '../../common/SectionHero/SectionHero';
+import Section from '../../common/Section/Section';
+import Container from '../../common/Container/Container';
+
+import s from './Prices.module.css';
 
 export default function Prices() {
-  return <div>Prices</div>;
+  return (
+    <>
+      <SectionHero className={s.pricesHero} title="Prices" />
+      <Section>
+        <Container></Container>
+      </Section>
+    </>
+  );
 }

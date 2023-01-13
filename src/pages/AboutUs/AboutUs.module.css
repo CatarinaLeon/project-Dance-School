@@ -6,9 +6,7 @@
     ),
     url('../../images/About-Us/AU-IMG-background-mob-1x.jpg');
 }
-.sectionAboutUs {
-  padding-top: 60px;
-}
+
 .aboutUsText {
   max-width: 286px;
   margin: 0 auto 70px auto;
@@ -40,7 +38,7 @@
   width: 90px;
   height: 130px;
 }
-.aboutUsWrapper {
+.aboutUsListItem div {
   max-width: 290px;
 }
 .aboutUsListTitle {
@@ -61,6 +59,7 @@
       ),
       url('../../images/About-Us/AU-IMG-background-tablet-1x.jpg');
   }
+  
   .aboutUsText {
     max-width: 100%;
     width: 395px;
@@ -80,7 +79,7 @@
     width: 200px;
     height: 286px;
   }
-  .aboutUsWrapper {
+  .aboutUsListItem div{
     max-width: 100%;
     width: 365px;
   }
@@ -111,7 +110,7 @@
   .aboutUsListItem:nth-child(2n) {
     justify-content: flex-end;
   }
-  .aboutUsWrapper {
+  .aboutUsListItem div {
     width: 400px;
   }
 }

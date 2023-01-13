@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { navConfig } from '../../data/navigation.js';
 import { socialNavigation } from '../../data/socialNav.js';
 import useResizeWindow from '../../hooks/useResizeWindow.js';
@@ -18,7 +19,9 @@ export default function Header() {
     return (
       <header className={s.header}>
         <Container className={s.containerHeader}>
-          <Logo className={s.headerLogo} />
+          <NavLink to="/">
+            <Logo className={s.headerLogo} />
+          </NavLink>
           <button type="button" className={s.headerMenuBtn}>
             <IconMobMenu />
           </button>
@@ -29,7 +32,9 @@ export default function Header() {
     return (
       <header className={s.header}>
         <Container className={s.containerHeader}>
-          <Logo className={s.headerLogo} />
+          <NavLink to="/">
+            <Logo className={s.headerLogo} />
+          </NavLink>
           <ListNav items={navConfig} className={s.headerList} />
           <button className={s.btnSchedule}>
             <IconSchedule className={s.btnScheduleIcon} />

@@ -31,21 +31,19 @@ export default function AboutUs() {
                 key={uuid()}
                 className={s.aboutUsListItem}
               >
-                <div className={s.aboutUsWrapper}>
-                  <TitleThirdLevel
-                    title={items.title}
-                    className={s.aboutUsListTitle}
-                  />
-                  <TextParagraph
-                    className={s.aboutUsListText}
-                    text={items.text}
-                  />
-                  <ButtonArrow
-                    to={items.url}
-                    message="Start now"
-                    className={s.aboutUsListBtn}
-                  />
-                </div>
+                <TitleThirdLevel
+                  title={items.title}
+                  className={s.aboutUsListTitle}
+                />
+                <TextParagraph
+                  className={s.aboutUsListText}
+                  text={items.text}
+                />
+                <ButtonArrow
+                  to={items.url}
+                  message="Start now"
+                  className={s.aboutUsListBtn}
+                />
               </ItemsList>
             ))}
           </ul>
