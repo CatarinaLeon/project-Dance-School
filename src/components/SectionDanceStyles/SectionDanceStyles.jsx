@@ -5,11 +5,10 @@ import Section from '../../common/Section/Section';
 import Container from '../../common/Container/Container';
 import TitleSecondLevel from '../../common/TitleSecondLevel/TitleSecondLevel';
 import ItemsList from '../../common/ItemsList/ItemsList';
-import ContainerEllipse from '../../common/ContainerEllipse/ContainerEllipse';
-import Button from '../../common/Button/Button';
+import ContainerEllipseBlue from '../../common/ContainerEllipseBlue/ContainerEllipseBlue';
+import BackgroundImg from '../../common/BackgroundImg/BackgroundImg';
 
 import s from './SectionDanceStyles.module.css';
-import BackgroundImg from '../../common/BackgroundImg/BackgroundImg';
 
 export default function SectionDanceStyles() {
   return (
@@ -23,9 +22,7 @@ export default function SectionDanceStyles() {
             </ItemsList>
           ))}
         </ul>
-        <ContainerEllipse title="Shall we dance?" className={s.danceStEllipse}>
-          <Button message="Start Now" className={s.danceStBtn} />
-        </ContainerEllipse>
+        <ContainerEllipseBlue title="Shall we dance?" message="Start Now" />
       </Container>
       <BackgroundImg className={s.imgEllipse} />
     </Section>

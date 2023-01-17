@@ -1,7 +1,4 @@
 .footer {
-  /* position: absolute; */
-  /* bottom: 0; */
-  /* left: 0; */
   padding: 25px 0 5px 0;
   background: linear-gradient(90deg, #3483c7 0%, #073773 100%);
   background-image: url('../../images/SVG/background-footer.svg');
@@ -45,21 +42,14 @@
 
   color: #ffffff;
 }
-.socialList li {
-  width: 15px;
-  height: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ffffff;
-  border-radius: 50%;
-}
 
-.socialList li:not(:last-child) {
-  margin-right: 6px;
+.socialList {
+  align-items: flex-start;
 }
 .socialList li a {
-  display: flex;
+  width: 15px;
+  height: 15px;
+  border-color: #ffffff;
 }
 .socialList li svg {
   width: 7px;
@@ -91,6 +81,16 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+  .footerList li a{
+    color: #ffffff;
+  }
+  .footerList li a:hover,
+  .footerList li a:focus {
+  color: #fff;
+}
+  .footerList li a::before{
+    background-color: #ffffff;
+  }
   .footerBox {
     display: flex;
     gap: 40px;
@@ -102,9 +102,6 @@
     line-height: 9px;
     color: #ffffff;
   }
-}
-.socialList {
-  align-items: flex-start;
 }
 
 @media screen and (min-width: 1200px) {
@@ -140,9 +137,11 @@
   .footerTextCopyright {
     margin-left: 160px;
   }
-  .socialList li {
+
+  .socialList li a {
     width: 28px;
     height: 28px;
+    border-color: #ffffff;
   }
   .socialList li svg {
     width: 14px;

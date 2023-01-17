@@ -1,0 +1,19 @@
+.socialList{
+    display: flex;
+    align-items: center;
+}
+.socialListItems:not(:last-child) {
+    margin-right: 6px;
+}
+.socialListLink{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #939598;
+    border-radius: 50%;
+}
+.socialListLink svg {
+    fill: #939598;
+}

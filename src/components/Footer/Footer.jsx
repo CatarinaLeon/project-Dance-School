@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router-dom';
-import { socialNavigation } from '../../data/socialNav.js';
 import { navConfig } from '../../data/navigation.js';
 import useResizeWindow from '../../hooks/useResizeWindow.js';
 
 import Container from '../../common/Container/Container';
 import ListNav from '../../common/ListNav/ListNav';
+import ListSocialNetworks from '../../common/ListSocialNetworks/ListSocialNetworks';
+
 import { ReactComponent as Logo } from '../../images/SVG/LOGO-footer.svg';
 import { ReactComponent as IconSchedule } from '../../images/SVG/icon-schedule.svg';
 
@@ -28,7 +29,7 @@ export default function Footer() {
           <p className={s.footerTextCopyright}>
             ©2021. Lead&Follow Dance School. All rights reserved
           </p>
-          <ListNav items={socialNavigation} className={s.socialList} />
+          <ListSocialNetworks className={s.socialList} />
         </Container>
       </footer>
     );
@@ -54,7 +55,7 @@ export default function Footer() {
             <p className={s.footerTextCopyright}>
               ©2021. Lead&Follow Dance School. All rights reserved
             </p>
-            <ListNav items={socialNavigation} className={s.socialList} />
+            <ListSocialNetworks className={s.socialList} />
           </div>
         </Container>
       </footer>

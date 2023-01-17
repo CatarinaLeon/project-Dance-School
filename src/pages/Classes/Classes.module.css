@@ -21,11 +21,6 @@
 }
 .classesListTitle{
     margin-bottom: 15px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-
-    color: #000000;
 }
 .classesListText{
     margin-bottom: 25px;
@@ -38,6 +33,10 @@
 .classesListBtn{
     margin: 0 0 0 auto;
     height: auto;
+    gap: 15px;
+}
+.classesListBtn a {
+    width: auto;
 }
 .classesListBtn::before{
     display: none;

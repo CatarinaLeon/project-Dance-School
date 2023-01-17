@@ -5,7 +5,7 @@ import Section from '../../common/Section/Section';
 import Container from '../../common/Container/Container';
 // import TextParagraph from '../../common/TextParagraph/TextParagraph';
 import ItemsList from '../../common/ItemsList/ItemsList';
-// import TitleThirdLevel from '../../common/TitleThirdLevel/TitleThirdLevel';
+import TitleFifthLevel from '../../common/TitleFifthLevel/TitleFifthLevel';
 import ButtonArrow from '../../common/ButtonArrow/ButtonArrow';
 
 import s from './Classes.module.css';
@@ -23,7 +23,10 @@ export default function Classes() {
                 key={uuid()}
                 className={s.classesListItems}
               >
-                <h4 className={s.classesListTitle}>{items.title}</h4>
+                <TitleFifthLevel
+                  title={items.title}
+                  className={s.classesListTitle}
+                />
                 <p className={s.classesListText}>{items.text}</p>
                 <ButtonArrow message="More info" className={s.classesListBtn} />
               </ItemsList>

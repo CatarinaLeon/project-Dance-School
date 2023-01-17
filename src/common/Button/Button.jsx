@@ -3,7 +3,7 @@ import s from './Button.module.css';
 
 export default function Button({
   onClick = () => {},
-  type = 'button',
+  type,
   message,
   className,
   children,

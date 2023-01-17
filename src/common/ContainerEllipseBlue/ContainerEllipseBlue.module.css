@@ -1,0 +1,76 @@
+.boxEllipse {
+  margin: 0 auto;
+  position: relative;
+  width: 295px;
+  height: 295px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 13px;
+  border-radius: 50%;
+  background: linear-gradient(75.62deg, #009ee2 7.02%, #273992 91.67%);
+}
+.boxEllipse::before {
+  content: '';
+  position: absolute;
+  left: 5%;
+  top: -4%;
+  width: 255px;
+  height: 311px;
+  border-radius: 50%;
+  border: 3px solid #3483c7;
+  transform: rotate(98.8deg);
+}
+.boxEllipseTitle {
+  font-family: 'PhillippScript';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #fff;
+}
+.boxEllipseBtn {
+  width: 150px;
+  padding: 15px 30px;
+  background: #ffffff;
+  color: #3483c7;
+}
+@media screen and (min-width: 768px) {
+  .boxEllipse {
+    width: 360px;
+    height: 360px;
+  }
+  .boxEllipse::before {
+    width: 313px;
+    height: 382px;
+  }
+  .boxEllipseTitle {
+    font-size: 40px;
+    line-height: 47px;
+  }
+    .boxEllipseBtn {
+      width: 185px;
+      padding: 19px 35px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  .boxEllipse {
+    width: 455px;
+    height: 455px;
+  }
+  .boxEllipse::before {
+    width: 396px;
+    height: 483px;
+  }
+  .boxEllipseTitle {
+    font-size: 52px;
+    line-height: 61px;
+  }
+    .boxEllipseBtn {
+      width: 230px;
+      padding: 24px 45px;
+    }
+}

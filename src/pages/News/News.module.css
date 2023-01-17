@@ -28,11 +28,6 @@
 }
 .newsListTitle{
     margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    
-    color: #000000;
 }
 .newsListText{
     margin-bottom: 20px;
@@ -43,6 +38,10 @@
     padding: 0;
     margin: 0 0 0 auto;
     height: auto;
+    gap: 15px;
+}
+.newsListBtn a{
+    width: auto;
 }
 .newsListBtn::before{
     display: none;

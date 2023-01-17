@@ -1,0 +1,111 @@
+.scheduleHero{
+    background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%),
+            url('../../images/Schedule/ScheduleOff-Line-background-img-mob-1x.png');
+}
+.scheduleHero h1 {
+    margin-bottom: 10px;
+}
+.scheduleBtn{
+    width: 120px;
+    background: #FFFFFF;
+    color: #22469D;
+    margin: 0 auto;
+}
+.scheduleBtnBox{
+    width: 288px;
+    margin: 0 auto 50px;
+    box-shadow: 0px 15px 45px rgba(7, 55, 115, 0.1);
+    border-radius: 70px;
+}
+.scheduleListLink{
+    display: inline-block;
+    width: 124px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+
+    color: #073773;
+}
+.activeLink{
+    display: inline-block;
+    width: 124px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    background: linear-gradient(75.62deg, #009EE2 7.02%, #273992 91.67%);
+    color: #FFFFFF;
+    border-radius: 70px;
+}
+.scheduleText{
+    max-width: 288px;
+    margin: 0 auto 50px; 
+}
+@media screen and (min-width: 768px) {
+    .scheduleHero {
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-tablet-1x.png');
+    }
+    .scheduleHero h1{
+        margin-bottom: 20px;
+    }
+    .scheduleBtn {
+        width: 200px;
+        padding: 15px 40px;
+    }
+    .scheduleBtnBox{
+        width: 570px;
+        margin-bottom: 70px;
+}
+    .scheduleListLink{
+        width: 265px;
+        padding: 15px 10px;
+        font-size: 16px;
+        line-height: 19px;
+}
+    .activeLink{
+        width: 265px;
+        padding: 15px 10px;
+        font-size: 16px;
+        line-height: 19px;
+}
+    .scheduleText{
+        min-width: 690px;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .scheduleHero {
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-desktop-1x.png');
+    }
+    .scheduleBtn{
+        width: 230px;
+    }
+    .scheduleBtnBox{
+        width: 650px;
+    }
+    .scheduleText {
+        min-width: 815px;
+        margin-bottom: 75px;
+    }
+    .scheduleListLink{
+        width: 305px;
+        padding: 20px 10px;
+        font-size: 20px;
+        line-height: 23px;
+}
+    .activeLink{
+        width: 305px;
+        padding: 20px 10px;
+        font-size: 20px;
+        line-height: 23px;
+}
+}

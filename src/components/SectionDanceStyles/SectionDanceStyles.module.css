@@ -70,34 +70,6 @@
   color: #000000;
 }
 
-.danceStEllipse {
-  margin: 0 auto;
-  width: 295px;
-  height: 295px;
-  gap: 13px;
-  background: linear-gradient(75.62deg, #009ee2 7.02%, #273992 91.67%);
-}
-.danceStEllipse::before {
-  width: 255px;
-  height: 311px;
-  border: 3px solid #3483c7;
-  transform: rotate(98.8deg);
-}
-.danceStEllipse h2 {
-  margin: 0;
-  font-size: 30px;
-  line-height: 35px;
-
-  color: #ffffff;
-}
-
-.danceStBtn {
-  width: 150px;
-  padding: 15px 30px;
-  background: #ffffff;
-  color: #3483c7;
-}
-
 @media screen and (min-width: 768px) {
   .danceStTitle {
     margin-bottom: 20px;
@@ -143,26 +115,6 @@
     line-height: 16px;
   }
 
-  .danceStEllipse {
-    width: 360px;
-    height: 360px;
-    gap: 16px;
-  }
-  .danceStEllipse::before {
-    width: 313px;
-    height: 382px;
-  }
-  .danceStEllipse h2 {
-    font-size: 40px;
-    line-height: 47px;
-    font-size: 40px;
-    line-height: 47px;
-  }
-
-  .danceStBtn {
-    width: 185px;
-    padding: 19px 35px;
-  }
   .imgEllipse{
     position: absolute;
     background-image: 
@@ -204,24 +156,6 @@
     line-height: 21px;
   }
 
-  .danceStEllipse {
-    width: 455px;
-    height: 455px;
-    gap: 20px;
-  }
-  .danceStEllipse::before {
-    width: 396px;
-    height: 483px;
-  }
-  .danceStEllipse h2 {
-    font-size: 52px;
-    line-height: 61px;
-  }
-
-  .danceStBtn {
-    width: 230px;
-    padding: 24px 45px;
-  }
   .imgEllipse{
     bottom: 23%;
     height: 850px;

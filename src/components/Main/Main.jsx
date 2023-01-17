@@ -1,6 +1,8 @@
 import { Suspense, lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from '../../pages/Home/Home';
+import ScheduleOff from '../../pages/ScheduleOff/ScheduleOff';
+import ScheduleOn from '../../pages/ScheduleOn/ScheduleOn';
 import s from './Main.module.css';
 // const Home = lazy(() => import('../../pages/Home/Home'));
 const AboutUs = lazy(() => import('../../pages/AboutUs/AboutUs'));
@@ -24,6 +26,8 @@ export default function Main() {
           <Route path="/news" element={<News />}></Route>
           <Route path="/prices" element={<Prices />}></Route>
           <Route path="/events" element={<SpecialEvents />}></Route>
+          <Route path="/schedule-off" element={<ScheduleOff />}></Route>
+          <Route path="/schedule-on" element={<ScheduleOn />}></Route>
         </Routes>
       </Suspense>
     </main>
