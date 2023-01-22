@@ -10,12 +10,15 @@
     background: #FFFFFF;
     color: #22469D;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 .scheduleBtnBox{
     width: 288px;
     margin: 0 auto 50px;
     box-shadow: 0px 15px 45px rgba(7, 55, 115, 0.1);
     border-radius: 70px;
+    background-color: #FFFFFF;
 }
 .scheduleListLink{
     display: inline-block;
@@ -25,8 +28,9 @@
     font-size: 10px;
     line-height: 12px;
     text-align: center;
-
+    /* background-color: #FFFFFF; */
     color: #073773;
+    /* border-radius: 70px; */
 }
 .activeLink{
     display: inline-block;

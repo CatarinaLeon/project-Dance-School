@@ -88,7 +88,9 @@
   .footerList li a:focus {
   color: #fff;
 }
-  .footerList li a::before{
+  .footerList li a::before,
+  .footerList li a:hover:before,
+  .footerList li a:focus:before{
     background-color: #ffffff;
   }
   .footerBox {

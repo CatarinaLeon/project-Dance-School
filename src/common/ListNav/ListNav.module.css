@@ -15,7 +15,9 @@
 .activeListLink{
   color: #3483c7;
 }
-.activeListLink::before{
+.activeListLink::before,
+.listLink:hover::before,
+.listLink:focus::before{
   content: '';
   width: 100%;
   height: 2px;
