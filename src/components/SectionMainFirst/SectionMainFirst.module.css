@@ -3,7 +3,18 @@
   height: 330px;
   background-image: url('../../images/Hero/young-female-dancer-mob-1x.jpg');
 }
-
+.sectionHero h1{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .heroText {
   width: 117px;
   margin: 0 auto 12px auto;
@@ -11,6 +22,7 @@
   line-height: 15px;
   text-align: center;
   color: #000000;
+  z-index: 1;
 }
 .heroBtn {
   margin: 0 auto;

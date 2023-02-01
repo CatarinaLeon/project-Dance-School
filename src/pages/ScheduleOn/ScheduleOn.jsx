@@ -1,7 +1,6 @@
 import SectionHero from '../../common/SectionHero/SectionHero';
 import Section from '../../common/Section/Section';
 import Container from '../../common/Container/Container';
-import Button from '../../common/Button/Button';
 import s from './ScheduleOn.module.css';
 import TextParagraph from '../../common/TextParagraph/TextParagraph';
 import { NavLink } from 'react-router-dom';
@@ -10,7 +9,9 @@ export default function ScheduleOn() {
   return (
     <>
       <SectionHero className={s.scheduleHero} title="Schedule. On-line">
-        <Button message="Download schedule" className={s.scheduleBtn} />
+        <a href="true" download className={s.scheduleBtn}>
+          Download schedule
+        </a>
       </SectionHero>
       <Section>
         <Container>

@@ -23,6 +23,7 @@
   transform: rotate(98.8deg);
 }
 .boxEllipseTitle {
+  z-index: 1;
   font-family: 'PhillippScript';
   font-weight: 400;
   font-size: 30px;

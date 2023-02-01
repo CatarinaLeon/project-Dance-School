@@ -6,7 +6,7 @@ import s from './SectionMainFirst.module.css';
 
 export default function SectionMainFirst() {
   return (
-    <SectionHero className={s.sectionHero}>
+    <SectionHero className={s.sectionHero} title="Main page">
       <ContainerEllipse className={s.heroBox} title="We are open!">
         <p className={s.heroText}>
           First group lesson for free! Shall we dance?

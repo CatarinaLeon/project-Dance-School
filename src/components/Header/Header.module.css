@@ -62,7 +62,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 30px;
 }
 .btnSchedule {
     display: flex;
@@ -118,6 +118,7 @@
     fill: #073773;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .headerContainer::before {
     width: 432px;
