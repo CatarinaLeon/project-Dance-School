@@ -4,7 +4,7 @@ import Container from '../../common/Container/Container';
 import s from './ScheduleOn.module.css';
 import TextParagraph from '../../common/TextParagraph/TextParagraph';
 import { NavLink } from 'react-router-dom';
-
+import FilterSchedule from '../../components/FilterSchedule/FilterSchedule';
 export default function ScheduleOn() {
   return (
     <>
@@ -50,7 +50,8 @@ export default function ScheduleOn() {
             consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
             pariatur"
           />
-          <div></div>
+
+          <FilterSchedule />
         </Container>
       </Section>
     </>

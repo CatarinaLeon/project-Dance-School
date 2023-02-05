@@ -1,5 +1,5 @@
-@import-normalize;
-
+/* @import-normalize; */
+@import '../../node_modules/modern-normalize/modern-normalize.css';
 body {
   margin: 0;
   position: relative;
@@ -14,6 +14,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 @font-face {
   font-family: 'Raleway';
   src: url('../fonts/Raleway-Regular.woff') format('woff');

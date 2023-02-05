@@ -1,6 +1,6 @@
 import s from './ItemsList.module.css';
 
-export default function ListNav({ children, className, item }) {
+export default function ItemsList({ children, className, item }) {
   return (
     <>
       <li className={`${s.listItem} ${className}`}>
