@@ -49,18 +49,18 @@ export default function News() {
             ))}
           </ul>
           <ReactPaginate
+            pageCount={pageCount}
+            onPageChange={handlePageClick}
+            pageRangeDisplayed={3}
+            renderOnZeroPageCount={null}
             breakLabel="..."
             nextLabel=">"
-            nextClassName={s.paginationBtnNext}
             previousLabel="<"
+            nextClassName={s.paginationBtnNext}
             previousClassName={s.paginationBtnPrev}
             disabledClassName={s.paginationDisabledBtn}
             previousLinkClassName={s.paginationNextLink}
             nextLinkClassName={s.paginationNextLink}
-            onPageChange={handlePageClick}
-            pageRangeDisplayed={5}
-            pageCount={pageCount}
-            renderOnZeroPageCount={null}
             className={s.padinationList}
             pageClassName={s.paginationListItem}
             activeClassName={s.paginationListItemActive}
