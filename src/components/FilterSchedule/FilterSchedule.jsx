@@ -48,7 +48,7 @@ export default function FilterSchedule() {
         <p className={s.radioText}>Difficulty level</p>
         <ul className={s.radioList}>
           {difficultyLevelConfig.map(({ id, name }) => (
-            <li className={s.radioListItem}>
+            <li className={s.radioListItem} key={uuid()}>
               <input type="radio" name="policy" id={id} />
               <label htmlFor={id} className={s.radioListLabel}>
                 {name}
