@@ -56,6 +56,7 @@ export default function SpecialEvents() {
             totalItems={itemsPageEvents.length}
             itemsPerPage={itemsPerPage}
             setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
           />
         </Container>
       </Section>

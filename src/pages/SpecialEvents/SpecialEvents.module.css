@@ -5,7 +5,7 @@
         url('../../images/Special-Events/SE-background-img-mob-1x.jpg');
 }
 .eventsList{
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
 }
 .eventsListItems{
     width: 288px;

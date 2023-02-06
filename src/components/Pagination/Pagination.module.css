@@ -2,9 +2,12 @@
     position: relative;
 }
 .pagination{
+    /* position: relative; */
+    max-width: 250px;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .paginationItem{
     width: 36px;
@@ -17,12 +20,13 @@
     align-items: center;
     color: #122735;
 }
-/* .activePagination {
-    
+.active {
+    composes: paginationItem;
+    background: #273992;
+    border-radius: 55px;
+    color: #fff;
 }
-.paginationBtn{
-    
-} */
+
 .activePaginationBtn{
     background: #273992;
     border-radius: 55px;
@@ -35,13 +39,22 @@
     height: 14px;
 }
 .prev{
-    bottom: 11px;
-    left: 15%;
-    transform: rotate(180deg);
+    top: 55%;
+    left: 8%;
+    transform: translate(-50%, -50%) rotate(180deg);
 }
 .next{
-    bottom: 14px;
-    right: 15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 1%;
+}
+@media screen and (min-width: 480px) {
+    .prev{
+        left: 20%;
+    }
+    .next{
+        right: 15%;
+    }
 }
 @media screen and (min-width: 768px) {
     .paginationItem {
@@ -53,19 +66,17 @@
         line-height: 14px;
     }
     .prev{
-        bottom: 15px;
-        left: 28%;
+        left: 31%;
     }
     .next{
-        bottom: 15px;
         right: 28%;
     }
 }
 @media screen and (min-width: 1200px) {
     .prev{
-        left: 35%;
+        left: 38%;
     }
     .next{
-        right: 35%;
+        right: 37%;
     }
 }
