@@ -20,7 +20,7 @@
     align-items: center;
     color: #122735;
 }
-.active {
+.activePaginationItem {
     composes: paginationItem;
     background: #273992;
     border-radius: 55px;

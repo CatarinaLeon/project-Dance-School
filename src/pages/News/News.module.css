@@ -3,6 +3,9 @@
             rgb(0, 158, 226, 0.7) 7.02%,
             rgb(39, 57, 146, 0.7) 91.67%), url('../../images/News/News-Hero-background-mob-1x.jpg');
 }
+.newsList{
+    margin-bottom: 40px;
+}
 .newsListItems{
     border: 1px solid #eee;
     border-radius: 20px;
@@ -45,6 +48,54 @@
 }
 .newsListBtn::before{
     display: none;
+}
+.padinationList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.paginationListItem{
+    width: 36px;
+    height: 36px;
+    
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #122735;
+    cursor: pointer;
+}
+.paginationListItemActive{
+    background: #273992;
+    border-radius: 55px;
+    color: #fff;
+}
+.paginationBtnPrev{
+    width: 20px;
+    height: 13px;
+    background-image: url('../../images/SVG/icon-arrow-left.svg');
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.paginationBtnNext{
+    width: 20px;
+    height: 13px;
+    background-image: url('../../images/SVG/icon-arrow-right.svg');
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.paginationDisabledBtn{
+    opacity: 0.3;
+    cursor: default;
+    /* background: #939598; */
+}
+.paginationNextLink{
+opacity: 0;
 }
 @media screen and (min-width:768px) {
     .newsHero{
