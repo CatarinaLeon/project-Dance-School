@@ -20,6 +20,10 @@
 .eventsListItems:last-child{
     margin-bottom: 0px;
 }
+.eventsListItems img{
+    width: 288px;
+    height: 166px;
+}
 .eventsListItems div{
     padding: 15px 10px;
 }
@@ -86,6 +90,14 @@ display: none;
         margin-bottom: 45px;
         border-radius: 20px;
     }
+    .eventsListItems:first-child img {
+        width: 100%;
+        height: 300px;
+    }
+    .eventsListItems img {
+        width: 329px;
+        height: 180px;
+    }
     .eventsListItems:first-child div{
         padding: 20px 30px 25px 30px;
     }
@@ -118,5 +130,12 @@ display: none;
     }
     .eventsListItems:first-child{
         margin-bottom: 15px;
+    }
+    .eventsListItems:first-child img {
+        height: 450px;
+    }
+    .eventsListItems img {
+        width: 493px;
+        height: 275px;
     }
 }

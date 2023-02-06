@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import uuid from 'react-uuid';
 import { specialEventsConfig } from '../../data/infoPageSpecialEvents';
 import SectionHero from '../../common/SectionHero/SectionHero';
@@ -7,16 +8,26 @@ import ItemsList from '../../common/ItemsList/ItemsList';
 import TitleFourthLevel from '../../common//TitleFourthLevel/TitleFourthLevel';
 import TextParagraph from '../../common//TextParagraph/TextParagraph';
 import ButtonArrow from '../../common/ButtonArrow/ButtonArrow';
+import Pagination from '../../components/Pagination/Pagination';
+
 import s from './SpecialEvents.module.css';
 
 export default function SpecialEvents() {
+  const [itemsPageEvents] = useState(specialEventsConfig);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(5);
+
+  const lastItemIndex = currentPage * itemsPerPage;
+  const firstItemIndex = lastItemIndex - itemsPerPage;
+  const currentItem = itemsPageEvents.slice(firstItemIndex, lastItemIndex);
+
   return (
     <>
       <SectionHero className={s.eventsHero} title="Special Events" />
       <Section>
         <Container>
           <ul className={s.eventsList}>
-            {specialEventsConfig.map(items => (
+            {currentItem.map(items => (
               <ItemsList
                 item={items}
                 key={uuid()}
@@ -41,6 +52,11 @@ export default function SpecialEvents() {
               </ItemsList>
             ))}
           </ul>
+          <Pagination
+            totalItems={itemsPageEvents.length}
+            itemsPerPage={itemsPerPage}
+            setCurrentPage={setCurrentPage}
+          />
         </Container>
       </Section>
     </>

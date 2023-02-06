@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 .scheduleBtnBox{
-    width: 288px;
+    width: 250px;
     margin: 0 auto 50px;
     box-shadow: 0px 15px 45px rgba(7, 55, 115, 0.1);
     border-radius: 70px;
@@ -73,7 +73,7 @@
         line-height: 14px;
     }
     .scheduleBtnBox{
-        width: 570px;
+        width: 530px;
         margin-bottom: 70px;
 }
     .scheduleListLink{
@@ -103,7 +103,7 @@
         line-height: 19px;
     }
     .scheduleBtnBox{
-        width: 650px;
+        width: 610px;
     }
     .scheduleText {
         min-width: 815px;
