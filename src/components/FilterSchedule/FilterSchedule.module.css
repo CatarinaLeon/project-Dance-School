@@ -130,6 +130,9 @@
 .searchTeacherInput::placeholder{
     color: #E1E1E1;
 }
+.containerButton{
+    margin-bottom: 55px;
+}
 .buttonSearh{
     margin: 0 auto 10px;
     background: linear-gradient(75.62deg, #009EE2 7.02%, #273992 91.67%);
@@ -142,6 +145,7 @@
     border-radius: 60px;
     color: #073773;
 }
+
 @media screen and (min-width:768px) {
     .filterList{
         padding-bottom: 38%;
@@ -243,6 +247,7 @@
     .buttonSearh{
         margin: 0;
     }
+    
 }
 @media screen and (min-width:1200px) {
     .filterList{

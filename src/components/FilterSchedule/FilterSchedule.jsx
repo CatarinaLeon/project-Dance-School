@@ -1,9 +1,12 @@
 import uuid from 'react-uuid';
+// import { useState } from 'react';
 import {
   filterDanceConfig,
   difficultyLevelConfig,
 } from '../../data/infoFilterDance';
 import Button from '../../common/Button/Button';
+import Calendar from '../../common/Calendar/Calendar';
+import Chart from '../../common/Chart/Chart';
 
 import s from './FilterSchedule.module.css';
 
@@ -70,6 +73,10 @@ export default function FilterSchedule() {
       <div className={s.containerButton}>
         <Button message="Searh" className={s.buttonSearh} />
         <Button message="Clear" className={s.buttonClear} />
+      </div>
+      <div className={s.calendarContainer}>
+        <Calendar />
+        <Chart />
       </div>
     </div>
   );
