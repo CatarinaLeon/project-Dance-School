@@ -7,7 +7,7 @@ import {
 import Button from '../../common/Button/Button';
 import Calendar from '../../common/Calendar/Calendar';
 import Chart from '../../common/Chart/Chart';
-
+import ContainerEllipseBlue from '../../common//ContainerEllipseBlue/ContainerEllipseBlue';
 import s from './FilterSchedule.module.css';
 
 export default function FilterSchedule() {
@@ -78,6 +78,33 @@ export default function FilterSchedule() {
         <Calendar />
         <Chart />
       </div>
+      <ContainerEllipseBlue
+        title="Join us!"
+        message="join"
+        className={s.ellipseSchedule}
+      >
+        <input
+          type="text"
+          name="user"
+          placeholder="name*"
+          required
+          className={s.ellipseInput}
+        />
+        <input
+          type="text"
+          name="user"
+          placeholder="E-mail*"
+          required
+          className={s.ellipseInput}
+        />
+        <input
+          type="text"
+          name="user"
+          placeholder="phone number*"
+          required
+          className={s.ellipseInput}
+        />
+      </ContainerEllipseBlue>
     </div>
   );
 }

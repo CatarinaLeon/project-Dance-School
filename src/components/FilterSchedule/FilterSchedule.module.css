@@ -145,7 +145,42 @@
     border-radius: 60px;
     color: #073773;
 }
+.calendarContainer{
+    margin-bottom: 50px;
+}
+.ellipseSchedule{
+    width: 295px;
+    height: 295px;
+}
+.ellipseSchedule::before{
+    width: 265px;
+    height: 315px;
+}
+.ellipseInput {
+    width: 230px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #0000;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    outline: none;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    z-index: 2;
+}
 
+.ellipseInput::placeholder {
+    color: #FFEEEE;
+    opacity: 0.5;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+}
 @media screen and (min-width:768px) {
     .filterList{
         padding-bottom: 38%;
@@ -246,6 +281,28 @@
     .buttonClear,
     .buttonSearh{
         margin: 0;
+    }
+    .calendarContainer{
+        margin-bottom: 80px;
+    }
+    .ellipseSchedule{
+        width: 485px;
+        height: 485px;
+    }
+    .ellipseSchedule::before{
+        width: 430px;
+        height: 515px;
+    }
+    .ellipseInput{
+        width: 400px;
+        margin-bottom: 20px;
+        padding-bottom: 8px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .ellipseInput::placeholder{
+        font-size: 10px;
+        line-height: 12px;
     }
     
 }
