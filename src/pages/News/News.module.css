@@ -55,7 +55,7 @@
     align-items: center;
 
 }
-.paginationListItem{
+.paginationListItem a{
     width: 36px;
     height: 36px;
     
@@ -68,34 +68,44 @@
     color: #122735;
     cursor: pointer;
 }
-.paginationListItemActive{
+.paginationListItemActive a{
     background: #273992;
     border-radius: 55px;
     color: #fff;
 }
-.paginationBtnPrev{
-    width: 20px;
-    height: 13px;
+.paginationPrevLink{
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    width: 36px;
+    height: 36px;
     background-image: url('../../images/SVG/icon-arrow-left.svg');
     background-repeat: no-repeat;
-    margin-right: 15px;
+    background-position: left;
     cursor: pointer;
 }
-.paginationBtnNext{
-    width: 20px;
-    height: 13px;
+
+.paginationNextLink{
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    width: 36px;
+    height: 36px;
     background-image: url('../../images/SVG/icon-arrow-right.svg');
     background-repeat: no-repeat;
-    margin-left: 15px;
+    background-position: right;
     cursor: pointer;
 }
 .paginationDisabledBtn{
     opacity: 0.3;
     cursor: default;
-    /* background: #939598; */
 }
-.paginationNextLink{
-opacity: 0;
+.breakLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
 }
 @media screen and (min-width:768px) {
     .newsHero{

@@ -21,7 +21,7 @@ export default function Chart() {
 
   return (
     <>
-      <BarChart width={690} height={740} data={data}>
+      <BarChart width={690} height={740} data={data} className="BarChart">
         <CartesianGrid strokeDasharray="3 3" vertical={false} />
         <XAxis
           dataKey="name"

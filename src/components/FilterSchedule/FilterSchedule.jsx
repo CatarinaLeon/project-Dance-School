@@ -7,6 +7,7 @@ import {
 import Button from '../../common/Button/Button';
 import Calendar from '../../common/Calendar/Calendar';
 import Chart from '../../common/Chart/Chart';
+// import CalendarTimeline from '../../common/CalendarTimeline/CalendarTimeline';
 import ContainerEllipseBlue from '../../common//ContainerEllipseBlue/ContainerEllipseBlue';
 import s from './FilterSchedule.module.css';
 
@@ -77,6 +78,7 @@ export default function FilterSchedule() {
       <div className={s.calendarContainer}>
         <Calendar />
         <Chart />
+        {/* <CalendarTimeline /> */}
       </div>
       <ContainerEllipseBlue
         title="Join us!"

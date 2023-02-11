@@ -56,11 +56,10 @@ export default function News() {
             breakLabel="..."
             nextLabel=">"
             previousLabel="<"
-            nextClassName={s.paginationBtnNext}
-            previousClassName={s.paginationBtnPrev}
             disabledClassName={s.paginationDisabledBtn}
-            previousLinkClassName={s.paginationNextLink}
+            previousLinkClassName={s.paginationPrevLink}
             nextLinkClassName={s.paginationNextLink}
+            breakLinkClassName={s.breakLink}
             className={s.padinationList}
             pageClassName={s.paginationListItem}
             activeClassName={s.paginationListItemActive}
