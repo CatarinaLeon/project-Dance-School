@@ -39,7 +39,7 @@
 }
 .modalList li {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 
   text-align: center;
   text-transform: uppercase;
@@ -69,7 +69,7 @@
     align-items: center;
     font-weight: 700;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 1.15;
     text-transform: uppercase;
 
     color: #073773;
@@ -80,7 +80,7 @@
   }
   .btnLang {
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     color: #939598;
   }
   .btnLang:not(:last-child) {
@@ -103,7 +103,7 @@
     height: 44px;
   }
   .headerMenuBtn{
-  margin-right: 0px;
+    margin-right: 0px;
   }
   .modalBackgroundImg {
     height: 50px;
@@ -136,7 +136,7 @@
   .headerList {
     display: flex;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 1.15;
     text-transform: uppercase;
 
     color: #000000;

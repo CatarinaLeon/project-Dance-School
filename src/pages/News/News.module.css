@@ -15,10 +15,6 @@
 .newsListItems:not(:last-child){
     margin-bottom: 20px;
 }
-/* .newsListItems img{ */
-    /* max-width: 285px; */
-    /* height: 145px; */
-/* } */
 .newsListItems div{
     padding: 18px 10px 15px 10px;
 }
@@ -26,7 +22,7 @@
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 1.2;
     color: #C4C4C4;
 }
 .newsListTitle{
@@ -35,7 +31,7 @@
 .newsListText{
     margin-bottom: 20px;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 1.5;
 }
 .newsListBtn{
     padding: 0;
@@ -61,7 +57,7 @@
     
     font-weight: 700;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 1.2;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -128,7 +128,6 @@
   position: absolute;
 
   top: 50%;
-  /* left: 50%; */
   transform: translate(-50%, -50%);
   z-index: 1;
   display: block;
@@ -137,8 +136,6 @@
   border-radius: 50%;
   border: 1px solid #273992;
   padding: 0;
-  /* -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%); */
 
   color: transparent;
   outline: none;
@@ -191,9 +188,6 @@
 }
 
 .slick-dots {
-  /* position: absolute;
-  bottom: -25px; */
-
   display: block;
 
   width: 100%;

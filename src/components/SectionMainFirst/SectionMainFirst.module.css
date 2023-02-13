@@ -19,7 +19,7 @@
   width: 117px;
   margin: 0 auto 12px auto;
   font-size: 10px;
-  line-height: 15px;
+  line-height: 1.5;
   text-align: center;
   color: #000000;
   z-index: 1;
@@ -40,7 +40,7 @@
     width: 148px;
     margin: 0 auto 15px auto;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 1.5;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -53,6 +53,6 @@
     width: 271px;
     margin: 0 auto 20px auto;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 1.5;
   }
 }

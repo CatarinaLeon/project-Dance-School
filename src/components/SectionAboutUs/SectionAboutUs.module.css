@@ -7,7 +7,7 @@
   margin-bottom: 26px;
   font-weight: 400;
   font-size: 10px;
-  line-height: 17px;
+  line-height: 1.7;
   color: #000000;
 }
 
@@ -56,7 +56,7 @@
 .aboutList li p {
   font-weight: 700;
   font-size: 10px;
-  line-height: 13px;
+  line-height: 1.3;
   text-transform: uppercase;
   color: #000000;
 }
@@ -78,7 +78,6 @@
   .aboutBtn {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
-    /* background-color: #f8fbfb; */
   }
   .aboutList {
     margin: 0;
@@ -132,7 +131,7 @@
   .aboutText {
     width: 394px;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
   }
   .aboutList {
     width: 815px;
@@ -150,7 +149,7 @@
   }
   .aboutList li p {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.3;
   }
   .aboutList li:nth-child(1) {
     grid-column: 3 / 6;

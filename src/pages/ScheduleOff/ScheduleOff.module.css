@@ -17,7 +17,7 @@
 
     font-weight: 700;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
     border-radius: 60px;
@@ -39,11 +39,9 @@
     padding: 10px;
     font-weight: 700;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 1.2;
     text-align: center;
-    /* background-color: #FFFFFF; */
     color: #073773;
-    /* border-radius: 70px; */
 }
 .activeLink{
     display: inline-block;
@@ -51,7 +49,7 @@
     padding: 10px;
     font-weight: 700;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 1.2;
     text-align: center;
     background: linear-gradient(75.62deg, #009EE2 7.02%, #273992 91.67%);
     color: #FFFFFF;
@@ -74,7 +72,7 @@
         width: 135px;
         padding: 15px 40px;
         font-size: 12px;
-        line-height: 14px;
+        line-height: 1.17;
 
     }
     .scheduleBtnBox{
@@ -85,13 +83,13 @@
         width: 265px;
         padding: 15px 10px;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19;
 }
     .activeLink{
         width: 265px;
         padding: 15px 10px;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19;
 }
     .scheduleText{
         min-width: 690px;
@@ -107,7 +105,7 @@
     .scheduleBtn{
         width: 180px;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19;
     }
     .scheduleBtnBox{
         width: 610px;
@@ -120,12 +118,12 @@
         width: 305px;
         padding: 20px 10px;
         font-size: 20px;
-        line-height: 23px;
+        line-height: 1.15;
 }
     .activeLink{
         width: 305px;
         padding: 20px 10px;
         font-size: 20px;
-        line-height: 23px;
+        line-height: 1.15;
 }
 }

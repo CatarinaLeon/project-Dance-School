@@ -8,7 +8,7 @@
     display: block;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 
     background: #FFFFFF;
     box-shadow: 0px 15px 45px rgba(7, 55, 115, 0.1);
@@ -47,7 +47,7 @@
 .checkboxListLabel{
     margin-left: 7px;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 }
 .checkboxListInput {
     cursor: pointer;
@@ -80,7 +80,7 @@
 
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 }
 .radioList{
     display: flex;
@@ -102,7 +102,7 @@
 .radioListLabel{
     margin-left: 7px;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 }
 .containerSearchTeacher{
     margin-bottom: 20px;
@@ -115,7 +115,7 @@
 .searchTeacherLabel{
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 }
 .searchTeacherInput{
     margin: 10px 0 0 0;
@@ -169,7 +169,7 @@
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     z-index: 2;
 }
 
@@ -179,7 +179,7 @@
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 6px;
-    line-height: 7px;
+    line-height: 1.17;
 }
 @media screen and (min-width:768px) {
     .filterList{
@@ -246,7 +246,7 @@
     .checkboxListItem{
         min-width: 160px;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19;
         
         color: #000000;
     }
@@ -267,7 +267,7 @@
     .searchTeacherLabel{
         font-weight: 700;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.19;
     }
     .searchTeacherInput{
         margin: 0 0 0 20px;
@@ -298,11 +298,11 @@
         margin-bottom: 20px;
         padding-bottom: 8px;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
     }
     .ellipseInput::placeholder{
         font-size: 10px;
-        line-height: 12px;
+        line-height: 1.2;
     }
     
 }

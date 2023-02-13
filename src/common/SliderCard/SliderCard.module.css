@@ -21,14 +21,14 @@
 }
 .cardText {
   font-size: 10px;
-  line-height: 15px;
+  line-height: 1.5;
   margin-bottom: 20px;
 
   color: #000000;
 }
 .cardSubText {
   font-size: 10px;
-  line-height: 15px;
+  line-height: 1.5;
 
   color: #000000;
 }
@@ -77,11 +77,11 @@
 
   .cardText {
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.5;
     margin-bottom: 30px;
   }
   .cardSubText {
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.5;
   }
 }

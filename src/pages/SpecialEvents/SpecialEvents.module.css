@@ -31,7 +31,7 @@
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     
     color: #C4C4C4;
 }
@@ -45,7 +45,7 @@
     margin-bottom: 10px;
     font-weight: 400;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 1.2;
     
     color: #073773;
 }
@@ -65,7 +65,7 @@
     width: auto;
 }
 .eventsListBtn::before{
-display: none;
+    display: none;
 }
 @media screen and (min-width: 768px) {
     .eventsHero {
@@ -82,9 +82,7 @@ display: none;
     .eventsListItems{
         width: 330px;
         margin-bottom: 0;
-        
     }
-
     .eventsListItems:first-child{
         width: 100%;
         margin-bottom: 45px;
@@ -104,7 +102,7 @@ display: none;
     .eventsListSubtext{
         margin-bottom: 15px;
         font-size: 12px;
-        line-height: 14px;
+        line-height: 1.17;
     }
     .eventsListTitle{
         margin-bottom: 5px;

@@ -26,7 +26,7 @@
   font-family: 'PhillippScript';
   font-weight: 400;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   text-align: center;
 
   color: #073773;
@@ -42,7 +42,7 @@
   }
   .boxEllipseTitle {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.17;
   }
 }
 
@@ -57,6 +57,6 @@
   }
   .boxEllipseTitle {
     font-size: 52px;
-    line-height: 61px;
+    line-height: 1.17;
   }
 }
