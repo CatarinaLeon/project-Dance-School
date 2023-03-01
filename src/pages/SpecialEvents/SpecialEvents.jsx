@@ -5,7 +5,7 @@ import SectionHero from '../../common/SectionHero/SectionHero';
 import Section from '../../common/Section/Section';
 import Container from '../../common/Container/Container';
 import ItemsList from '../../common/ItemsList/ItemsList';
-import TitleFourthLevel from '../../common//TitleFourthLevel/TitleFourthLevel';
+import TitleSecondLevel from '../../common/TitleSecondLevel/TitleSecondLevel';
 import TextParagraph from '../../common//TextParagraph/TextParagraph';
 import ButtonArrow from '../../common/ButtonArrow/ButtonArrow';
 import Pagination from '../../components/Pagination/Pagination';
@@ -26,6 +26,7 @@ export default function SpecialEvents() {
       <SectionHero className={s.eventsHero} title="Special Events" />
       <Section>
         <Container>
+          <TitleSecondLevel title="Special Events" className="visuallyHidden" />
           <ul className={s.eventsList}>
             {currentItem.map(items => (
               <ItemsList
@@ -34,10 +35,7 @@ export default function SpecialEvents() {
                 className={s.eventsListItems}
               >
                 <p className={s.eventsListSubtextData}>{items.subTextData}</p>
-                <TitleFourthLevel
-                  title={items.title}
-                  className={s.eventsListTitle}
-                />
+                <h3 className={s.eventsListTitle}>{items.title}</h3>
                 <p className={s.eventsListSubtext}>
                   {items.subTextAddress}
                   <br />

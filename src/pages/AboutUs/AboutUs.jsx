@@ -11,6 +11,7 @@ import ButtonArrow from '../../common/ButtonArrow/ButtonArrow';
 import SectionAwards from '../../components/SectionAwards/SectionAwards';
 
 import s from './AboutUs.module.css';
+import TitleSecondLevel from '../../common/TitleSecondLevel/TitleSecondLevel';
 
 export default function AboutUs() {
   return (
@@ -18,6 +19,10 @@ export default function AboutUs() {
       <SectionHero className={s.aboutHero} title="About Us" />
       <Section className={s.sectionAboutUs}>
         <Container>
+          <TitleSecondLevel
+            title="Types of classes"
+            className="visuallyHidden"
+          />
           <TextParagraph
             className={s.aboutUsText}
             text="Starting from 2017 Lead & Follow Dance School is teaching people how to dance with great success and 

@@ -15,9 +15,9 @@ export default function Prices() {
           <div className={s.pricesBox}>
             <img src={ImgPrices} alt="" className={s.pricesBoxImg} />
             <div className={s.pricesBoxWrapper}>
-              <h5 className={s.pricesBoxTitle}>
+              <h2 className={s.pricesBoxTitle}>
                 For everyone who comes to our classes for the first time:
-              </h5>
+              </h2>
               <p className={s.pricesBoxText}>
                 First group lesson <b>for free </b>(any class) <br />
                 Trial package: 2 individual lessons and weekly group lessons =
@@ -37,7 +37,7 @@ export default function Prices() {
           </div>
           <ul className={s.pricesList}>
             <li className={s.pricesListItems}>
-              <h6 className={s.pricesListTitle}>Groups</h6>
+              <h3 className={s.pricesListTitle}>Groups</h3>
               <p className={s.pricesListText}>
                 Drop in<span>$20</span>
               </p>
@@ -49,7 +49,7 @@ export default function Prices() {
               </p>
             </li>
             <li className={s.pricesListItems}>
-              <h6 className={s.pricesListTitle}>Practice Parties</h6>
+              <h3 className={s.pricesListTitle}>Practice Parties</h3>
               <p className={s.pricesListText}>
                 Drop in<span>$15</span>
               </p>
@@ -61,9 +61,9 @@ export default function Prices() {
               </p>
             </li>
             <li className={s.pricesListItems}>
-              <h6 className={s.pricesListTitle}>
+              <h3 className={s.pricesListTitle}>
                 Unlimited groups and practice
-              </h6>
+              </h3>
               <p className={s.pricesListText}>
                 <span>$250/mo</span> per person
               </p>
@@ -72,7 +72,7 @@ export default function Prices() {
               </p>
             </li>
             <li className={s.pricesListItems}>
-              <h6 className={s.pricesListTitle}>on-line classes</h6>
+              <h3 className={s.pricesListTitle}>on-line classes</h3>
               <p className={s.pricesListText}>
                 <span>$15</span> one class
               </p>

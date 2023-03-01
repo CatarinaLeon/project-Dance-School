@@ -20,6 +20,9 @@
     padding: 40px 10px 25px;
 }
 .classesListTitle{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
     margin-bottom: 15px;
 }
 .classesListText{
@@ -60,17 +63,17 @@
     .classesListItems:nth-child(2n){
         margin-right: auto;
         margin-left: 0;
-}
-.classesListItems:not(:last-child) {
-    margin-bottom: 60px;
-}
-.classesListItems div {
-    width: 265px;
-    padding: 25px 25px;
-}
-.classesListText{
-    margin-bottom: 40px;
-}
+    }
+    .classesListItems:not(:last-child) {
+        margin-bottom: 60px;
+    }
+    .classesListItems div {
+        width: 265px;
+        padding: 25px 25px;
+    }
+    .classesListText{
+        margin-bottom: 40px;
+    }
 }
 @media screen and (min-width: 1200px) {
     .classesHero {

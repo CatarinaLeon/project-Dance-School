@@ -26,6 +26,9 @@
     color: #C4C4C4;
 }
 .newsListTitle{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
     margin-bottom: 20px;
 }
 .newsListText{
@@ -120,6 +123,10 @@
     .newsListItems div{
         padding: 20px 24px;
     }
+    .newsListTitle{
+        font-size: 18px;
+        line-height: 21px;
+    }
 }
 @media screen and (min-width:1200px) {
     .newsHero{
@@ -135,5 +142,9 @@
     }
     .newsListItems img{
         width: 290px;
+    }
+    .newsListTitle{
+        font-size: 20px;
+        line-height: 23px;
     }
 }

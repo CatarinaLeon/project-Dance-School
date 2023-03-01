@@ -9,7 +9,7 @@ export default function ContainerEllipseBlue({
 }) {
   return (
     <div className={`${s.boxEllipse} ${className}`}>
-      <h2 className={s.boxEllipseTitle}>{title}</h2>
+      <p className={s.boxEllipseTitle}>{title}</p>
       {children}
       <Button message={message} className={s.boxEllipseBtn} />
     </div>

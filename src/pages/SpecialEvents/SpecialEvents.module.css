@@ -36,7 +36,14 @@
     color: #C4C4C4;
 }
 .eventsListTitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
     margin-bottom: 15px;
+}
+.eventsListItems:first-child .eventsListTitle{
+    font-size: 18px;
+    line-height: 21px;
 }
 .eventsListItems:first-child .eventsListSubtext{
     margin-bottom: 20px;
@@ -98,6 +105,14 @@
     }
     .eventsListItems:first-child div{
         padding: 20px 30px 25px 30px;
+    }
+    .eventsListTitle{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .eventsListItems:first-child .eventsListTitle{
+        font-size: 26px;
+        line-height: 31px;
     }
     .eventsListSubtext{
         margin-bottom: 15px;

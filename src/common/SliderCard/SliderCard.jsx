@@ -1,4 +1,3 @@
-import TitleFifthLevel from '../../common/TitleFifthLevel/TitleFifthLevel';
 import s from './SliderCard.module.css';
 
 export default function SliderCard({ className, children, item }) {
@@ -25,7 +24,7 @@ export default function SliderCard({ className, children, item }) {
         />
       </picture>
       <div className={s.cardBox}>
-        <TitleFifthLevel title={item.title} className={s.cardTitle} />
+        <h3 className={s.cardTitle}>{item.title}</h3>
         <p className={s.cardText}>{item.text}</p>
         <p className={s.cardSubText}>{item.subText}</p>
         {children}

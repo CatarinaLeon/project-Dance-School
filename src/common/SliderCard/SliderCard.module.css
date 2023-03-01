@@ -16,6 +16,9 @@
   box-shadow: 0px 7px 20px rgba(7, 55, 115, 0.1);
 }
 .cardTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -72,6 +75,8 @@
   }
 
   .cardTitle {
+    font-size: 20px;
+    line-height: 23px;
     margin-bottom: 20px;
   }
 

@@ -7,7 +7,7 @@ import Section from '../../common/Section/Section';
 import Container from '../../common/Container/Container';
 import TextParagraph from '../../common/TextParagraph/TextParagraph';
 import ItemsList from '../../common/ItemsList/ItemsList';
-import TitleFifthLevel from '../../common/TitleFifthLevel/TitleFifthLevel';
+import TitleSecondLevel from '../../common/TitleSecondLevel/TitleSecondLevel';
 import ButtonArrow from '../../common/ButtonArrow/ButtonArrow';
 
 import s from './News.module.css';
@@ -31,14 +31,12 @@ export default function News() {
       <SectionHero title="News" className={s.newsHero} />
       <Section>
         <Container>
+          <TitleSecondLevel title="All news" className="visuallyHidden" />
           <ul className={s.newsList}>
             {currentItems.map(items => (
               <ItemsList item={items} key={uuid()} className={s.newsListItems}>
                 <p className={s.newsListSubtext}>{items.subText}</p>
-                <TitleFifthLevel
-                  title={items.title}
-                  className={s.newsListTitle}
-                />
+                <h3 className={s.newsListTitle}>{items.title}</h3>
                 <TextParagraph text={items.text} className={s.newsListText} />
                 <ButtonArrow
                   to={items.url}
