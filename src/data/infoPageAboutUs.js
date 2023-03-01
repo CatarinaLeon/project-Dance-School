@@ -1,30 +1,30 @@
-import Img_1_mob_1x from '../images/Dance-Styles/DS-IMG-1-mob-1x.png';
-import Img_1_mob_2x from '../images/Dance-Styles/DS-IMG-1-mob-2x.png';
-import Img_1_tablet_1x from '../images/Dance-Styles/DS-IMG-1-tablet-1x.png';
-import Img_1_tablet_2x from '../images/Dance-Styles/DS-IMG-1-tablet-2x.png';
-import Img_1_desktop_1x from '../images/Dance-Styles/DS-IMG-1-desktop-1x.png';
-import Img_1_desktop_2x from '../images/Dance-Styles/DS-IMG-1-desktop-2x.png';
+import Img_1_mob_1x from '../images/Dance-Styles/DS-IMG-1-mob-1x.webp';
+import Img_1_mob_2x from '../images/Dance-Styles/DS-IMG-1-mob-2x.webp';
+import Img_1_tablet_1x from '../images/Dance-Styles/DS-IMG-1-tablet-1x.webp';
+import Img_1_tablet_2x from '../images/Dance-Styles/DS-IMG-1-tablet-2x.webp';
+import Img_1_desktop_1x from '../images/Dance-Styles/DS-IMG-1-desktop-1x.webp';
+import Img_1_desktop_2x from '../images/Dance-Styles/DS-IMG-1-desktop-2x.webp';
 
-import Img_2_mob_1x from '../images/Dance-Styles/DS-IMG-4-mob-1x.png';
-import Img_2_mob_2x from '../images/Dance-Styles/DS-IMG-4-mob-2x.png';
-import Img_2_tablet_1x from '../images/Dance-Styles/DS-IMG-4-tablet-1x.png';
-import Img_2_tablet_2x from '../images/Dance-Styles/DS-IMG-4-tablet-2x.png';
-import Img_2_desktop_1x from '../images/Dance-Styles/DS-IMG-4-desktop-1x.png';
-import Img_2_desktop_2x from '../images/Dance-Styles/DS-IMG-4-desktop-2x.png';
+import Img_2_mob_1x from '../images/Dance-Styles/DS-IMG-4-mob-1x.webp';
+import Img_2_mob_2x from '../images/Dance-Styles/DS-IMG-4-mob-2x.webp';
+import Img_2_tablet_1x from '../images/Dance-Styles/DS-IMG-4-tablet-1x.webp';
+import Img_2_tablet_2x from '../images/Dance-Styles/DS-IMG-4-tablet-2x.webp';
+import Img_2_desktop_1x from '../images/Dance-Styles/DS-IMG-4-desktop-1x.webp';
+import Img_2_desktop_2x from '../images/Dance-Styles/DS-IMG-4-desktop-2x.webp';
 
-import Img_6_mob_1x from '../images/Dance-Styles/DS-IMG-6-mob-1x.png';
-import Img_6_mob_2x from '../images/Dance-Styles/DS-IMG-6-mob-2x.png';
-import Img_6_tablet_1x from '../images/Dance-Styles/DS-IMG-6-tablet-1x.png';
-import Img_6_tablet_2x from '../images/Dance-Styles/DS-IMG-6-tablet-2x.png';
-import Img_6_desktop_1x from '../images/Dance-Styles/DS-IMG-6-desktop-1x.png';
-import Img_6_desktop_2x from '../images/Dance-Styles/DS-IMG-6-desktop-2x.png';
+import Img_6_mob_1x from '../images/Dance-Styles/DS-IMG-6-mob-1x.webp';
+import Img_6_mob_2x from '../images/Dance-Styles/DS-IMG-6-mob-2x.webp';
+import Img_6_tablet_1x from '../images/Dance-Styles/DS-IMG-6-tablet-1x.webp';
+import Img_6_tablet_2x from '../images/Dance-Styles/DS-IMG-6-tablet-2x.webp';
+import Img_6_desktop_1x from '../images/Dance-Styles/DS-IMG-6-desktop-1x.webp';
+import Img_6_desktop_2x from '../images/Dance-Styles/DS-IMG-6-desktop-2x.webp';
 
-import Img_7_mob_1x from '../images/Dance-Styles/DS-IMG-7-mob-1x.png';
-import Img_7_mob_2x from '../images/Dance-Styles/DS-IMG-7-mob-2x.png';
-import Img_7_tablet_1x from '../images/Dance-Styles/DS-IMG-7-tablet-1x.png';
-import Img_7_tablet_2x from '../images/Dance-Styles/DS-IMG-7-tablet-2x.png';
-import Img_7_desktop_1x from '../images/Dance-Styles/DS-IMG-7-desktop-1x.png';
-import Img_7_desktop_2x from '../images/Dance-Styles/DS-IMG-7-desktop-2x.png';
+import Img_7_mob_1x from '../images/Dance-Styles/DS-IMG-7-mob-1x.webp';
+import Img_7_mob_2x from '../images/Dance-Styles/DS-IMG-7-mob-2x.webp';
+import Img_7_tablet_1x from '../images/Dance-Styles/DS-IMG-7-tablet-1x.webp';
+import Img_7_tablet_2x from '../images/Dance-Styles/DS-IMG-7-tablet-2x.webp';
+import Img_7_desktop_1x from '../images/Dance-Styles/DS-IMG-7-desktop-1x.webp';
+import Img_7_desktop_2x from '../images/Dance-Styles/DS-IMG-7-desktop-2x.webp';
 
 export const pageAboutUsConfig = [
   {

@@ -1,9 +1,9 @@
-import Img_1_mob_1x from '../images/Teachers/teachers-mob-1x.png';
-import Img_1_mob_2x from '../images/Teachers/teachers-mob-2x.png';
-import Img_1_tablet_1x from '../images/Teachers/teachers-table-1x.png';
-import Img_1_tablet_2x from '../images/Teachers/teachers-table-2x.png';
-import Img_1_desktop_1x from '../images/Teachers/teachers-desktop-1x.png';
-import Img_1_desktop_2x from '../images/Teachers/teachers-desktop-2x.png';
+import Img_1_mob_1x from '../images/Teachers/teachers-mob-1x.webp';
+import Img_1_mob_2x from '../images/Teachers/teachers-mob-2x.webp';
+import Img_1_tablet_1x from '../images/Teachers/teachers-table-1x.webp';
+import Img_1_tablet_2x from '../images/Teachers/teachers-table-2x.webp';
+import Img_1_desktop_1x from '../images/Teachers/teachers-desktop-1x.webp';
+import Img_1_desktop_2x from '../images/Teachers/teachers-desktop-2x.webp';
 
 export const ourTeachersConfig = [
   {

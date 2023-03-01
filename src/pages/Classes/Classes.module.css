@@ -1,7 +1,16 @@
 .classesHero{
     background-image: linear-gradient(75.62deg,
             rgb(0, 158, 226, 0.7) 7.02%,
-            rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-mob-1x.jpg');
+            rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-mob-1x.webp');
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .classesHero {
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-mob-2x.webp');
+    }
 }
 .classesListItems{
     width: 288px;
@@ -46,7 +55,16 @@
     .classesHero{
         background-image: linear-gradient(75.62deg,
                 rgb(0, 158, 226, 0.7) 7.02%,
-                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-tablet-1x.jpg');
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-tablet-1x.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .classesHero {
+            background-image: linear-gradient(75.62deg,
+                    rgb(0, 158, 226, 0.7) 7.02%,
+                    rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-tablet-2x.webp');
+        }
     }
     .classesListItems{
         width: 600px;
@@ -77,7 +95,16 @@
     .classesHero {
         background-image: linear-gradient(75.62deg,
                 rgb(0, 158, 226, 0.7) 7.02%,
-                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-desktop-1x.jpg');
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-desktop-1x.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .classesHero {
+            background-image: linear-gradient(75.62deg,
+                    rgb(0, 158, 226, 0.7) 7.02%,
+                    rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Classes/Classes-IMG-background-desktop-2x.webp');
+        }
     }
     .classesList{
         width: 950px;

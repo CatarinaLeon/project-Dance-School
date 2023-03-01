@@ -1,9 +1,9 @@
-import Img_1_mob_1x from '../images/Awards/Awards-IMG-mob-1x.png';
-import Img_1_mob_2x from '../images/Awards/Awards-IMG-mob-2x.png';
-import Img_1_tablet_1x from '../images/Awards/Awards-IMG-tablet-1x.png';
-import Img_1_tablet_2x from '../images/Awards/Awards-IMG-tablet-2x.png';
-import Img_1_desktop_1x from '../images/Awards/Awards-IMG-desktop-1x.png';
-import Img_1_desktop_2x from '../images/Awards/Awards-IMG-desktop-2x.png';
+import Img_1_mob_1x from '../images/Awards/Awards-IMG-mob-1x.webp';
+import Img_1_mob_2x from '../images/Awards/Awards-IMG-mob-2x.webp';
+import Img_1_tablet_1x from '../images/Awards/Awards-IMG-tablet-1x.webp';
+import Img_1_tablet_2x from '../images/Awards/Awards-IMG-tablet-2x.webp';
+import Img_1_desktop_1x from '../images/Awards/Awards-IMG-desktop-1x.webp';
+import Img_1_desktop_2x from '../images/Awards/Awards-IMG-desktop-2x.webp';
 
 export const awardsConfig = [
   {

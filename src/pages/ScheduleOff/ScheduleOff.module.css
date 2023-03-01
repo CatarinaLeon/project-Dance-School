@@ -2,7 +2,16 @@
     background-image: linear-gradient(75.62deg,
                 rgb(0, 158, 226, 0.7) 7.02%,
                 rgb(39, 57, 146, 0.7) 91.67%),
-            url('../../images/Schedule/ScheduleOff-Line-background-img-mob-1x.png');
+            url('../../images/Schedule/ScheduleOff-Line-background-img-mob-1x.webp');
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .scheduleHero {
+        background-image:linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-mob-2x.webp');
+    }
 }
 .scheduleHero h1 {
     margin-bottom: 10px;
@@ -63,7 +72,16 @@
     .scheduleHero {
         background-image: linear-gradient(75.62deg,
                 rgb(0, 158, 226, 0.7) 7.02%,
-                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-tablet-1x.png');
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-tablet-1x.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .scheduleHero {
+            background-image:linear-gradient(75.62deg,
+                    rgb(0, 158, 226, 0.7) 7.02%,
+                    rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-tablet-2x.webp');
+        }
     }
     .scheduleHero h1{
         margin-bottom: 20px;
@@ -100,7 +118,16 @@
     .scheduleHero {
         background-image: linear-gradient(75.62deg,
                 rgb(0, 158, 226, 0.7) 7.02%,
-                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-desktop-1x.png');
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-desktop-1x.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .scheduleHero {
+            background-image:linear-gradient(75.62deg,
+                    rgb(0, 158, 226, 0.7) 7.02%,
+                    rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Schedule/ScheduleOff-Line-background-img-desktop-2x.webp');
+        }
     }
     .scheduleBtn{
         width: 180px;

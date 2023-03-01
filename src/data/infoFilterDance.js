@@ -1,6 +1,6 @@
-import Img_1_mob_1x from '../images/Dance-Styles/DS-IMG-1-mob-1x.png';
-import Img_2_mob_1x from '../images/Dance-Styles/DS-IMG-4-mob-1x.png';
-import Img_6_mob_1x from '../images/Dance-Styles/DS-IMG-6-mob-1x.png';
+import Img_1_mob_1x from '../images/Dance-Styles/DS-IMG-1-mob-1x.webp';
+import Img_2_mob_1x from '../images/Dance-Styles/DS-IMG-4-mob-1x.webp';
+import Img_6_mob_1x from '../images/Dance-Styles/DS-IMG-6-mob-1x.webp';
 
 export const filterDanceConfig = [
     {

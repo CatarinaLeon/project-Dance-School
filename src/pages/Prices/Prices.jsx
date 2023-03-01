@@ -1,7 +1,7 @@
 import SectionHero from '../../common/SectionHero/SectionHero';
 import Section from '../../common/Section/Section';
 import Container from '../../common/Container/Container';
-import ImgPrices from '../../images/Prices/prices-img-mob-1x.png';
+import ImgPrices from '../../images/Prices/prices-img-mob-1x.webp';
 import ContainerEllipseBlue from '../../common/ContainerEllipseBlue/ContainerEllipseBlue';
 
 import s from './Prices.module.css';

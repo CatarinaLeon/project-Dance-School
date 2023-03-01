@@ -7,7 +7,7 @@
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .sectionHero {
-    background-image:url('../../images/Hero/young-female-dancer-mob-2x.webp');
+    background-image: url('../../images/Hero/young-female-dancer-mob-2x.webp');
   }
 }
 .sectionHero h1{

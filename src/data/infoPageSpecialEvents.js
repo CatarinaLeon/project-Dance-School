@@ -1,23 +1,23 @@
-import Img_1_mob_1x from '../images/Special-Events/SE-img-1-mob-1x.png';
-import Img_1_mob_2x from '../images/Special-Events/SE-img-1-mob-2x.png';
-import Img_1_tablet_1x from '../images/Special-Events/SE-img-1-tablet-1x.png';
-import Img_1_tablet_2x from '../images/Special-Events/SE-img-1-tablet-2x.png';
-import Img_1_desktop_1x from '../images/Special-Events/SE-img-1-desktop-1x.png';
-import Img_1_desktop_2x from '../images/Special-Events/SE-img-1-desktop-2x.png';
+import Img_1_mob_1x from '../images/Special-Events/SE-img-1-mob-1x.webp';
+import Img_1_mob_2x from '../images/Special-Events/SE-img-1-mob-2x.webp';
+import Img_1_tablet_1x from '../images/Special-Events/SE-img-1-tablet-1x.webp';
+import Img_1_tablet_2x from '../images/Special-Events/SE-img-1-tablet-2x.webp';
+import Img_1_desktop_1x from '../images/Special-Events/SE-img-1-desktop-1x.webp';
+import Img_1_desktop_2x from '../images/Special-Events/SE-img-1-desktop-2x.webp';
 
-import Img_2_mob_1x from '../images/Special-Events/SE-img-2-mob-1x.png';
-import Img_2_mob_2x from '../images/Special-Events/SE-img-2-mob-2x.png';
-import Img_2_tablet_1x from '../images/Special-Events/SE-img-2-tablet-1x.png';
-import Img_2_tablet_2x from '../images/Special-Events/SE-img-2-tablet-2x.png';
-import Img_2_desktop_1x from '../images/Special-Events/SE-img-2-desktop-1x.png';
-import Img_2_desktop_2x from '../images/Special-Events/SE-img-2-desktop-2x.png';
+import Img_2_mob_1x from '../images/Special-Events/SE-img-2-mob-1x.webp';
+import Img_2_mob_2x from '../images/Special-Events/SE-img-2-mob-2x.webp';
+import Img_2_tablet_1x from '../images/Special-Events/SE-img-2-tablet-1x.webp';
+import Img_2_tablet_2x from '../images/Special-Events/SE-img-2-tablet-2x.webp';
+import Img_2_desktop_1x from '../images/Special-Events/SE-img-2-desktop-1x.webp';
+import Img_2_desktop_2x from '../images/Special-Events/SE-img-2-desktop-2x.webp';
 
-import Img_3_mob_1x from '../images/Special-Events/SE-img-3-mob-1x.png';
-import Img_3_mob_2x from '../images/Special-Events/SE-img-3-mob-2x.png';
-import Img_3_tablet_1x from '../images/Special-Events/SE-img-3-tablet-1x.png';
-import Img_3_tablet_2x from '../images/Special-Events/SE-img-3-tablet-2x.png';
-import Img_3_desktop_1x from '../images/Special-Events/SE-img-3-desktop-1x.png';
-import Img_3_desktop_2x from '../images/Special-Events/SE-img-3-desktop-2x.png';
+import Img_3_mob_1x from '../images/Special-Events/SE-img-3-mob-1x.webp';
+import Img_3_mob_2x from '../images/Special-Events/SE-img-3-mob-2x.webp';
+import Img_3_tablet_1x from '../images/Special-Events/SE-img-3-tablet-1x.webp';
+import Img_3_tablet_2x from '../images/Special-Events/SE-img-3-tablet-2x.webp';
+import Img_3_desktop_1x from '../images/Special-Events/SE-img-3-desktop-1x.webp';
+import Img_3_desktop_2x from '../images/Special-Events/SE-img-3-desktop-2x.webp';
 
 export const specialEventsConfig = [
   {

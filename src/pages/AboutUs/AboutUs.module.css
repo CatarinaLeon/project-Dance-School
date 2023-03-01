@@ -4,9 +4,17 @@
       rgb(0, 158, 226, 0.7) 7.02%,
       rgb(39, 57, 146, 0.7) 91.67%
     ),
-    url('../../images/About-Us/AU-IMG-background-mob-1x.jpg');
+    url('../../images/About-Us/AU-IMG-background-mob-1x.webp');
 }
-
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+  .aboutHero {
+    background-image: linear-gradient(75.62deg,
+        rgb(0, 158, 226, 0.7) 7.02%,
+        rgb(39, 57, 146, 0.7) 91.67%), url('../../images/About-Us/AU-IMG-background-mob-2x.webp');
+  }
+}
 .aboutUsText {
   max-width: 286px;
   margin: 0 auto 70px auto;
@@ -57,9 +65,17 @@
         rgb(0, 158, 226, 0.7) 7.02%,
         rgb(39, 57, 146, 0.7) 91.67%
       ),
-      url('../../images/About-Us/AU-IMG-background-tablet-1x.jpg');
+      url('../../images/About-Us/AU-IMG-background-tablet-1x.webp');
   }
-  
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .aboutHero {
+        background-image: linear-gradient(75.62deg,
+            rgb(0, 158, 226, 0.7) 7.02%,
+            rgb(39, 57, 146, 0.7) 91.67%), url('../../images/About-Us/AU-IMG-background-tablet-2x.webp');
+      }
+  }
   .aboutUsText {
     max-width: 100%;
     width: 395px;
@@ -98,7 +114,16 @@
         rgb(0, 158, 226, 0.7) 7.02%,
         rgb(39, 57, 146, 0.7) 91.67%
       ),
-      url('../../images/About-Us/AU-IMG-background-desktop-1x.jpg');
+      url('../../images/About-Us/AU-IMG-background-desktop-1x.webp');
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .aboutHero {
+        background-image: linear-gradient(75.62deg,
+            rgb(0, 158, 226, 0.7) 7.02%,
+            rgb(39, 57, 146, 0.7) 91.67%), url('../../images/About-Us/AU-IMG-background-desktop-2x.webp');
+      }
   }
   .aboutUsText {
     width: 500px;

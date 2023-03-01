@@ -2,7 +2,16 @@
     background-image: linear-gradient(75.62deg,
             rgb(0, 158, 226, 0.7) 7.02%,
             rgb(39, 57, 146, 0.7) 91.67%),
-        url('../../images/Special-Events/SE-background-img-mob-1x.jpg');
+        url('../../images/Special-Events/SE-background-img-mob-1x.webp');
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .eventsHero {
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/SE-background-img-mob-2x.webp');
+    }
 }
 .eventsList{
     margin: 0 auto 40px auto;
@@ -76,7 +85,16 @@
     .eventsHero {
         background-image: linear-gradient(75.62deg,
                 rgb(0, 158, 226, 0.7) 7.02%,
-                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/SE-background-img-tablet-1x.jpg');
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/SE-background-img-tablet-1x.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .eventsHero {
+            background-image: linear-gradient(75.62deg,
+                    rgb(0, 158, 226, 0.7) 7.02%,
+                    rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/SE-background-img-tablet-2x.webp');
+        }
     }
     .eventsList{
         width: 690px;
@@ -129,7 +147,16 @@
     .eventsHero {
         background-image: linear-gradient(75.62deg,
                 rgb(0, 158, 226, 0.7) 7.02%,
-                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/SE-background-img-desktop-1x.jpg');
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/SE-background-img-desktop-1x.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .eventsHero {
+            background-image: linear-gradient(75.62deg,
+                    rgb(0, 158, 226, 0.7) 7.02%,
+                    rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/SE-background-img-desktop-2x.webp');
+        }
     }
     .eventsList{
         width: 1026px;
