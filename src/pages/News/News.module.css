@@ -37,15 +37,12 @@
     line-height: 1.5;
 }
 .newsListBtn{
-    padding: 0;
     margin: 0 0 0 auto;
     height: auto;
     gap: 15px;
 }
-.newsListBtn a{
-    width: auto;
-}
-.newsListBtn::before{
+.newsListBtn::before,
+.newsListBtn::after{
     display: none;
 }
 .padinationList{

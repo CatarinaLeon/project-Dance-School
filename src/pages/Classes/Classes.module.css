@@ -38,10 +38,8 @@
     height: auto;
     gap: 15px;
 }
-.classesListBtn a {
-    width: auto;
-}
-.classesListBtn::before{
+.classesListBtn::before,
+.classesListBtn::after{
     display: none;
 }
 @media screen and (min-width: 768px) {

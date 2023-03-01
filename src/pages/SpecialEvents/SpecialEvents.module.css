@@ -68,10 +68,8 @@
     height: auto;
     gap: 10px;
 }
-.eventsListBtn a{
-    width: auto;
-}
-.eventsListBtn::before{
+.eventsListBtn::before,
+.eventsListBtn::after{
     display: none;
 }
 @media screen and (min-width: 768px) {

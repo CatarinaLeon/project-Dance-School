@@ -1,5 +1,5 @@
 .buttonArrow {
-  width: 150px;
+  width: 125px;
   height: 50px;
 
   display: flex;
@@ -29,25 +29,19 @@
   border-radius: 50%;
   border: 1px solid #073773;
 }
-.buttonArrowLink {
-  width: 100px;
-  text-align: left;
-  color: #073773;
-  position: relative;
-}
-.buttonArrowLink::before{
+.buttonArrow::after{
   content: '';
   position: absolute;
-  top: -2px;
-  left: -2px;
+  top: 13px;
+  right: 73px;
   z-index: -1;
-  width: 5px;
-  height: 22px;
+  width: 10px;
+  height: 23px;
   background-color: #fff;
 }
 @media screen and (min-width: 768px) {
   .buttonArrow {
-    width: 158px;
+    width: 135px;
     height: 60px;
     gap: 18px;
   }
@@ -60,16 +54,16 @@
     width: 21px;
     height: 16px;
   }
-  .buttonArrowLink::before{
-    top: -5px;
-    left: 0px;
+    .buttonArrow::after{
+    top: 17px;
+    right: 72px;
     height: 25px;
   }
 }
 @media screen and (min-width: 1200px) {
   .buttonArrow {
     gap: 30px;
-    width: 188px;
+    width: 178px;
     height: 90px;
     font-size: 14px;
     line-height: 1.36;
@@ -84,8 +78,9 @@
     width: 27px;
     height: 34px;
   }
-  .buttonArrowLink::before{
-    top: -5px;
+  .buttonArrow::after{
+    top: 29px;
+    right: 85px;
     height: 30px;
   }
 }
