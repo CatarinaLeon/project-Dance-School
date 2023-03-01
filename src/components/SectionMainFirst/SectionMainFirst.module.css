@@ -1,7 +1,14 @@
 .sectionHero {
   padding: 20px 0 0 0;
   height: 330px;
-  background-image: url('../../images/Hero/young-female-dancer-mob-1x.jpg');
+  background-image: url('../../images/Hero/young-female-dancer-mob-1x.webp');
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+  .sectionHero {
+    background-image:url('../../images/Hero/young-female-dancer-mob-2x.webp');
+  }
 }
 .sectionHero h1{
   position: absolute;
@@ -34,8 +41,15 @@
   .sectionHero {
     height: 410px;
     padding: 75px 0 0 0;
-    background-image: url('../../images/Hero/young-female-dancer-tablet-1x.jpg');
+    background-image: url('../../images/Hero/young-female-dancer-tablet-1x.webp');
   }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .sectionHero {
+        background-image: url('../../images/Hero/young-female-dancer-tablet-2x.webp');
+      }
+    }
   .heroText {
     width: 148px;
     margin: 0 auto 15px auto;
@@ -47,8 +61,15 @@
   .sectionHero {
     height: 750px;
     padding: 138px 0 0 0;
-    background-image: url('../../images/Hero/young-female-dancer-desktop-1x.jpg');
+    background-image: url('../../images/Hero/young-female-dancer-desktop-1x.webp');
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .sectionHero {
+        background-image: url('../../images/Hero/young-female-dancer-desktop-2x.webp');
+      }
+    }
   .heroText {
     width: 271px;
     margin: 0 auto 20px auto;
