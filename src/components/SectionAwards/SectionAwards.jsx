@@ -10,7 +10,7 @@ import s from './SectionAwards.module.css';
 
 export default function SectionAwards() {
   return (
-    <Section>
+    <Section className={s.sectionAwards}>
       <Container>
         <TitleSecondLevel title="Awards" />
         <SimpleSlider>
