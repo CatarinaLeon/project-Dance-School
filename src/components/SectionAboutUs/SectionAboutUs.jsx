@@ -34,7 +34,7 @@ export default function SectionAboutUs() {
           <ButtonArrow
             className={s.aboutBtn}
             to="/about"
-            message="Learn More"
+            message="Learn more"
           />
         </div>
       </Container>

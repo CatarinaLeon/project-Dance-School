@@ -13,10 +13,12 @@ export default function Modal({ children, isModalOpen, closeModal }) {
           <header className={s.modalHeader}>
             <NavLink to="/" className={s.modalHeaderLink}>
               <Logo className={s.modalIconLogo} />
+              Go back to the main
             </NavLink>
             <button
               className={s.modalBtnClose}
               type="submit"
+              aria-label="button close modal"
               onClick={closeModal}
             >
               <IconClose />

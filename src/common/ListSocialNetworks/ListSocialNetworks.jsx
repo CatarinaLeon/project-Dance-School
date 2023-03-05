@@ -5,9 +5,9 @@ import s from './ListSocialNetworks.module.css';
 export default function ListSocialNetworks({ className }) {
   return (
     <ul className={`${s.socialList} ${className}`}>
-      {socialNetworksConfig.map(({ url, icon }) => (
+      {socialNetworksConfig.map(({ url, icon, ariaLabel }) => (
         <li className={s.socialListItems} key={uuid()}>
-          <a href={url} className={s.socialListLink}>
+          <a href={url} className={s.socialListLink} aria-label={ariaLabel}>
             {icon}
           </a>
         </li>

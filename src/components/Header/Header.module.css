@@ -22,6 +22,10 @@
   align-items: center;
   justify-content: space-between;
 }
+.headerNavLogo{
+  font-size: 0;
+  line-height: 0;
+}
 .headerLogo {
   width: 132px;
   height: 32px;

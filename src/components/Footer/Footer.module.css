@@ -15,7 +15,10 @@
   align-items: center;
   gap: 20px;
 }
-
+.footerNavLogo{
+  font-size: 0;
+  line-height: 0;
+}
 .footerLogo {
   width: 103px;
   height: 25px;

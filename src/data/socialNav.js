@@ -6,13 +6,17 @@ export const socialNetworksConfig = [
   {
     url: 'https://www.youtube.com/',
     icon: <Ut />,
+    ariaLabel: 'link to youtube page',
   },
   {
     url: 'https://www.facebook.com/',
     icon: <Fc />,
+    ariaLabel: 'link to facebook page',
+
   },
   {
     url: 'https://www.instagram.com',
     icon: <In />,
+    ariaLabel: 'link to instagram page',
   },
 ];

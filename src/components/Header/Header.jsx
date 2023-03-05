@@ -36,8 +36,9 @@ export default function Header() {
   return (
     <header className={s.header}>
       <Container className={s.headerContainer}>
-        <NavLink to="/">
+        <NavLink to="/" className={s.headerNavLogo}>
           <Logo className={s.headerLogo} />
+          Home
         </NavLink>
         {isDesktop && <ListNav items={navConfig} className={s.headerList} />}
         {isTablet && (
@@ -60,7 +61,12 @@ export default function Header() {
             </div>
           </>
         )}
-        <button type="submit" className={s.headerMenuBtn} onClick={openModal}>
+        <button
+          type="submit"
+          className={s.headerMenuBtn}
+          onClick={openModal}
+          aria-label="button open modal"
+        >
           <IconMobMenu />
         </button>
 

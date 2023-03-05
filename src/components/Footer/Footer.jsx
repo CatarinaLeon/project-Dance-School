@@ -19,13 +19,14 @@ export default function Footer() {
     return (
       <footer className={s.footer}>
         <Container className={s.footerContainer}>
-          <NavLink to="/">
+          <NavLink to="/" className={s.footerNavLogo}>
             <Logo className={s.footerLogo} />
+            Go back to the main page
           </NavLink>
-          <button className={s.btnSchedule}>
+          <NavLink className={s.btnSchedule} to="/schedule-off">
             <IconSchedule className={s.btnScheduleIcon} />
             Schedule
-          </button>
+          </NavLink>
           <p className={s.footerTextCopyright}>
             ©2021. Lead&Follow Dance School. All rights reserved
           </p>
@@ -37,15 +38,16 @@ export default function Footer() {
     return (
       <footer className={s.footer}>
         <Container className={s.footerContainer}>
-          <NavLink to="/">
+          <NavLink to="/" className={s.footerNavLogo}>
             <Logo className={s.footerLogo} />
+            Go back to the main page
           </NavLink>
           <div className={s.footerListBlock}>
             <ListNav items={navConfig} className={s.footerList} />
-            <button className={s.btnSchedule}>
+            <NavLink className={s.btnSchedule} to="/schedule-off">
               <IconSchedule className={s.btnScheduleIcon} />
               Schedule
-            </button>
+            </NavLink>
           </div>
           <div className={s.footerBox}>
             <p className={s.footerTextAddress}>
