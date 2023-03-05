@@ -7,7 +7,12 @@ export default function ListSocialNetworks({ className }) {
     <ul className={`${s.socialList} ${className}`}>
       {socialNetworksConfig.map(({ url, icon, ariaLabel }) => (
         <li className={s.socialListItems} key={uuid()}>
-          <a href={url} className={s.socialListLink} aria-label={ariaLabel}>
+          <a
+            href={url}
+            className={s.socialListLink}
+            aria-label={ariaLabel}
+            target="blank"
+          >
             {icon}
           </a>
         </li>
