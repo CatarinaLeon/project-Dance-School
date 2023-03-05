@@ -8,7 +8,7 @@
     padding-top: 40px;
     padding-bottom: 60px;
     background-image: 
-    url('../../images/Background/main-background-img-768-1x.png');
+    url('../../images/Background/main-background-img-768-1x.webp');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:0% 45%; 
@@ -17,7 +17,7 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
       .section {
-          background-image: url('../../images/Background/main-background-img-768-2x.png');
+          background-image: url('../../images/Background/main-background-img-768-2x.webp');
       }
   }
 }
@@ -27,13 +27,13 @@
     padding-top: 60px;
     padding-bottom: 65px;
     background-image:
-        url('../../images/Background/main-background-img-1200-1x.png');
+        url('../../images/Background/main-background-img-1200-1x.webp');
   }
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
       .section {
-        background-image: url('../../images/Background/main-background-img-1200-2x.png');
+        background-image: url('../../images/Background/main-background-img-1200-2x.webp');
       }
     }
 }

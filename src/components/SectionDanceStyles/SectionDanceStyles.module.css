@@ -118,8 +118,8 @@
   .imgEllipse{
     position: absolute;
     background-image: 
-    url('../../images/Background/main-background-img-Ellipse-1x.png'),
-    url('../../images/Background/rose-gold-fabric-768-1x.png');
+    url('../../images/Background/main-background-img-Ellipse-1x.webp'),
+    url('../../images/Background/rose-gold-fabric-768-1x.webp');
     background-size:650px, cover;
     background-repeat: no-repeat;
     background-position: center, top;
@@ -128,6 +128,14 @@
     bottom: 25%;
     z-index: -1;
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .imgEllipse {
+        background-image: url('../../images/Background/main-background-img-Ellipse-2x.webp'),
+          url('../../images/Background/rose-gold-fabric-768-2x.webp');;
+      }
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -157,7 +165,17 @@
   }
 
   .imgEllipse{
+    background-image: url('../../images/Background/main-background-img-Ellipse-1x.webp'),
+      url('../../images/Background/rose-gold-fabric-1200-1x.webp');
     bottom: 23%;
     height: 850px;
   }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .imgEllipse {
+        background-image: url('../../images/Background/main-background-img-Ellipse-2x.webp'),
+          url('../../images/Background/rose-gold-fabric-1200-2x.webp');;
+      }
+    }
 }
