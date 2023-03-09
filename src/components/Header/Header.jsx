@@ -8,7 +8,6 @@ import Container from '../../common/Container/Container';
 import ListNav from '../../common/ListNav/ListNav';
 import ListSocialNetworks from '../../common/ListSocialNetworks/ListSocialNetworks';
 import Modal from '../../common/Modal/Modal.jsx';
-import BackgroundImg from '../../common/BackgroundImg/BackgroundImg';
 
 import { ReactComponent as Logo } from '../../images/SVG/LOGO-header.svg';
 import { ReactComponent as IconSchedule } from '../../images/SVG/icon-schedule.svg';
@@ -76,7 +75,6 @@ export default function Header() {
             className={s.modalList}
             onClick={closeModal}
           />
-          <BackgroundImg className={s.modalBackgroundImg} />
           {isMobile && (
             <div className={s.ContainerWrapper}>
               <NavLink className={s.btnSchedule} to="/schedule-off">
