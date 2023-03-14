@@ -1,0 +1,83 @@
+.sectionMap {
+    padding: 0;
+    margin-bottom: 200px;
+    min-height: 300px;
+    position: relative;
+    background-image: url('../../images/Contacts/map-mob-1x.webp');
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .sectionMap {
+        background-image: url('../../images/Contacts/map-mob-2x.webp');
+    }
+}
+.boxMap {
+    height: 200px;
+    align-content: center;
+    bottom: -35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+    background: transparent;
+}
+.boxMap address{
+    margin-bottom: 0;
+}
+.BackgroundImgMap{
+    height: 55px;
+    width: 100%;
+    background-image: url('../../images/SVG/icon-line-blue.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -3px;
+    position: absolute;
+    bottom: -22px;
+    left: -2px;
+}
+@media screen and (min-width: 480px) {
+    .BackgroundImgMap{
+        height: 90px;
+        bottom: -50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sectionMap {
+        margin-bottom: 240px;
+        min-height: 380px;
+        background-image: url('../../images/Contacts/map-tablet-1x.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .sectionMap {
+            background-image: url('../../images/Contacts/map-tablet-2x.webp');
+        }
+    }
+    .BackgroundImgMap {
+        height: 135px;
+        bottom: -80px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sectionMap {
+        margin-bottom: 255px;
+        min-height: 430px;
+        background-image: url('../../images/Contacts/map-desktop-1x.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .sectionMap {
+            background-image: url('../../images/Contacts/map-desktop-2x.webp');
+        }
+    }
+    .BackgroundImgMap {
+        height: 200px;
+        bottom: -95px;
+    }
+}
