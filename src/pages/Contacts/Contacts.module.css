@@ -32,15 +32,14 @@ screen and (min-resolution: 2dppx) {
     background-image: url('../../images/SVG/icon-line-blue.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -3px;
     position: absolute;
-    bottom: -22px;
+    bottom: -10%;
     left: -2px;
 }
 @media screen and (min-width: 480px) {
     .BackgroundImgMap{
         height: 90px;
-        bottom: -50px;
+        bottom: -15%;
     }
 }
 
@@ -59,7 +58,6 @@ screen and (min-resolution: 2dppx) {
     }
     .BackgroundImgMap {
         height: 135px;
-        bottom: -80px;
     }
 }
 
@@ -77,7 +75,16 @@ screen and (min-resolution: 2dppx) {
         }
     }
     .BackgroundImgMap {
+        height: 150px;
+    }
+}
+@media screen and (min-width: 1350px) {
+    .BackgroundImgMap {
+        height: 175px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .BackgroundImgMap {
         height: 200px;
-        bottom: -95px;
     }
 }
